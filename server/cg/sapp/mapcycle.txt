@@ -1,0 +1,26 @@
+;=============;
+; MAP CYCLE:
+;=============;
+
+; Format:
+;   map:game variant:minimum players:maximum players
+
+beavercreek:ctf:0:16
+bloodgulch:ctf:0:16
+boardingaction:ctf:0:16
+carousel:ctf:0:16
+chillout:ctf:0:16
+dangercanyon:ctf:0:16
+deathisland:ctf:0:16
+gephyrophobia:ctf:0:16
+icefields:ctf:0:16
+infinity:ctf:0:16
+sidewinder:ctf:0:16
+timberland:ctf:0:16
+hangemhigh:ctf:0:16
+ratrace:ctf:0:16
+damnation:ctf:0:16
+putput:ctf:0:16
+prisoner:ctf:0:16
+wizard:ctf:0:16
+longest:ctf:0:16

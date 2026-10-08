@@ -1,0 +1,3 @@
+sv_map beavercreek slayer
+sv_map wizard slayer
+sv_map chillout slayer

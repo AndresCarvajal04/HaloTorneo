@@ -1,0 +1,28 @@
+;====================================================================================;
+; HALO CE Server Startup Configuration
+; This file is executed by haloceded.exe at server launch.
+; 
+; IMPORTANT:
+; - Only include basic server settings and the 'load' command here.
+; - Place all SAPP-specific commands and Lua script configs inside /cg/sapp/init.txt.
+;====================================================================================;
+
+; Server name (maximum 63 characters)
+sv_name "your_server_name_here"
+
+; Whether the server broadcasts to the Halo master server (true/false)
+sv_public true
+
+; RCON (remote console) password for server administration
+; Leave blank ("") to disable RCON access
+sv_rcon_password ""
+
+; Password required to join the server (maximum 8 characters)
+; Leave blank ("") for no password
+sv_password ""
+
+; File containing the server's Message of the Day (MOTD):
+sv_motd "motd.txt"
+
+; Load the SAPP mod extension (required, do not remove or modify)
+load

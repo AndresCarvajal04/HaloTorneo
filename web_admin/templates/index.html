@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo CE - Forerunner Tactical Tournament Console</title>
+    <style>
+        :root {
+            --bg-base: #0c0f14;
+            --bg-panel: #131720;
+            --bg-panel-alt: #181d28;
+            --border-stone: #262e3c;
+            --border-highlight: #3c495d;
+            --forerunner-gold: #c5a059;
+            --forerunner-gold-dim: #7f6738;
+            --steel-blue: #4f6880;
+            --energy-cyan: #4ea8de;
+            --team-red: #c0392b;
+            --team-red-dim: rgba(192, 57, 43, 0.15);
+            --team-blue: #2980b9;
+            --team-blue-dim: rgba(41, 128, 185, 0.15);
+            --text-main: #dce3ea;
+            --text-muted: #8392a2;
+            --text-dim: #546272;
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            margin: 0;
+            padding: 16px;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(78, 168, 222, 0.03) 0%, transparent 60%),
+                linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
+            background-size: 100% 100%, 28px 28px, 28px 28px;
+            min-height: 100vh;
+        }
+
+        /* Cabecera Táctica */
+        .hud-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--forerunner-gold-dim);
+            padding: 14px 18px;
+            margin-bottom: 18px;
+            background: linear-gradient(180deg, #161b24 0%, #10131a 100%);
+            border-radius: 4px;
+            border-top: 1px solid var(--border-stone);
+            gap: 12px;
+        }
+        .hud-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .hud-badge {
+            background: #19202c;
+            color: var(--forerunner-gold);
+            padding: 4px 10px;
+            border: 1px solid var(--forerunner-gold-dim);
+            border-radius: 2px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.78em;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.35em;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #edf2f7;
+        }
+
+        /* Selector de Modo: Equipos vs FFA */
+        .mode-toggle-bar {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .btn-mode {
+            padding: 6px 14px;
+            border: 1px solid var(--border-stone);
+            background: #151a24;
+            color: var(--text-muted);
+            border-radius: 2px;
+            font-size: 0.75em;
+            font-weight: 700;
+            cursor: pointer;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.2s;
+        }
+        .btn-mode.active {
+            background: #242e3f;
+            border-color: var(--forerunner-gold);
+            color: var(--forerunner-gold);
+            box-shadow: inset 0 2px 0 var(--forerunner-gold);
+        }
+
+        /* Banner de Partida Activa */
+        .match-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background: linear-gradient(90deg, var(--team-red-dim) 0%, rgba(19, 23, 32, 0.95) 50%, var(--team-blue-dim) 100%);
+            border: 1px solid var(--border-stone);
+            border-radius: 4px;
+            padding: 16px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .match-banner.ffa-mode {
+            background: linear-gradient(90deg, rgba(197, 160, 89, 0.08) 0%, rgba(19, 23, 32, 0.95) 50%, rgba(197, 160, 89, 0.08) 100%);
+            border-color: var(--forerunner-gold-dim);
+        }
+        .team-box { text-align: center; flex: 1; min-width: 140px; }
+        .team-title { font-size: 1.45em; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; }
+        .red-team { color: var(--team-red); }
+        .blue-team { color: var(--team-blue); }
+        .vs-badge { font-size: 1.5em; font-weight: 800; color: var(--text-dim); letter-spacing: 2px; }
+
+        /* Pestañas */
+        .nav-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+            border-bottom: 1px solid var(--border-stone);
+            padding-bottom: 6px;
+        }
+        .tab-btn {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-stone);
+            color: var(--text-muted);
+            padding: 9px 16px;
+            border-radius: 2px;
+            font-weight: 700;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 0.75em;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover { color: var(--text-main); border-color: var(--steel-blue); }
+        .tab-btn.active {
+            background: #202837;
+            border-color: var(--forerunner-gold);
+            color: var(--forerunner-gold);
+            box-shadow: inset 0 2px 0 var(--forerunner-gold);
+        }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Contenedores y Tarjetas */
+        .card {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-stone);
+            border-radius: 4px;
+            padding: 20px;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+            position: relative;
+        }
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 32px; height: 2px;
+            background: var(--forerunner-gold);
+        }
+
+        /* Formularios y Botones */
+        .btn {
+            padding: 9px 16px;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            font-weight: 700;
+            cursor: pointer;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 0.75em;
+            letter-spacing: 0.8px;
+            transition: all 0.2s;
+        }
+        .btn-gold { background: #352c1e; border-color: var(--forerunner-gold); color: var(--forerunner-gold); }
+        .btn-gold:hover { background: var(--forerunner-gold); color: #000; }
+        .btn-steel { background: #1f2733; border-color: var(--border-highlight); color: var(--text-main); }
+        .btn-steel:hover { background: #2b3646; border-color: var(--steel-blue); }
+        .btn-green { background: #1f2d1e; border-color: #557250; color: #8ec085; }
+        .btn-green:hover { background: #557250; color: #fff; }
+        .btn-red { background: #331e1e; border-color: var(--team-red); color: #e67e7e; }
+        .btn-red:hover { background: var(--team-red); color: #fff; }
+
+        input, select {
+            background: #090c12;
+            border: 1px solid var(--border-stone);
+            color: var(--text-main);
+            padding: 9px 12px;
+            border-radius: 2px;
+            font-size: 0.88em;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--forerunner-gold);
+        }
+
+        /* Grid Responsivo de KDA en Panel Principal */
+        .kda-split-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        @media (max-width: 850px) {
+            .kda-split-grid { grid-template-columns: 1fr; }
+        }
+
+        .team-kda-panel {
+            background: #11141c;
+            border: 1px solid var(--border-stone);
+            border-radius: 4px;
+            padding: 14px;
+        }
+        .team-kda-panel.red { border-top: 3px solid var(--team-red); }
+        .team-kda-panel.blue { border-top: 3px solid var(--team-blue); }
+        .team-kda-panel.ffa { border-top: 3px solid var(--forerunner-gold); }
+
+        .team-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-stone);
+            padding-bottom: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Tablas */
+        .kda-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.84em;
+        }
+        .kda-table th {
+            text-align: left;
+            padding: 8px;
+            background: #161b24;
+            color: var(--forerunner-gold);
+            border-bottom: 1px solid var(--border-stone);
+            font-size: 0.78em;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+        .kda-table td {
+            padding: 8px;
+            border-bottom: 1px solid #1a202c;
+        }
+        .kda-table tr:hover { background: rgba(255, 255, 255, 0.02); }
+        .badge-mvp {
+            background: rgba(197, 160, 89, 0.15);
+            color: var(--forerunner-gold);
+            border: 1px solid var(--forerunner-gold-dim);
+            padding: 2px 5px;
+            border-radius: 2px;
+            font-size: 0.72em;
+            font-weight: 700;
+        }
+
+        /* Carrusel y Filtros de Mapas */
+        .carousel-container {
+            position: relative;
+            margin: 16px 0;
+            overflow: hidden;
+        }
+        .carousel-track {
+            display: flex;
+            gap: 14px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 8px 2px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--forerunner-gold-dim) #090c12;
+        }
+        .map-card {
+            flex: 0 0 250px;
+            background: #161c26;
+            border: 1px solid var(--border-stone);
+            border-radius: 3px;
+            overflow: hidden;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .map-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--forerunner-gold);
+        }
+        .map-card.selected-for-vote {
+            border-color: var(--forerunner-gold);
+            background: #1d2533;
+        }
+        .map-img-container {
+            height: 135px;
+            position: relative;
+            background-color: #0b0e14;
+            background-size: cover;
+            background-position: center;
+            border-bottom: 1px solid var(--border-stone);
+            display: flex;
+            align-items: flex-end;
+            padding: 8px;
+        }
+        .map-tag {
+            background: rgba(12, 15, 20, 0.9);
+            padding: 2px 7px;
+            border-radius: 2px;
+            font-size: 0.7em;
+            color: var(--forerunner-gold);
+            border: 1px solid var(--forerunner-gold-dim);
+            font-family: monospace;
+            font-weight: 700;
+        }
+        .map-details { padding: 12px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        .map-name { font-weight: 700; font-size: 1.05em; color: #fff; margin-bottom: 2px; }
+        .map-desc { font-size: 0.75em; color: var(--text-muted); margin-bottom: 10px; }
+        
+        .vote-checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .vote-checkbox-label input { width: auto; margin: 0; cursor: pointer; }
+
+        /* Brackets Editables */
+        .bracket-tree {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            align-items: center;
+            padding: 16px 0;
+        }
+        @media (max-width: 900px) {
+            .bracket-tree { grid-template-columns: 1fr; }
+        }
+        .bracket-round { display: flex; flex-direction: column; gap: 20px; }
+        .round-title {
+            text-transform: uppercase;
+            font-size: 0.75em;
+            color: var(--forerunner-gold);
+            letter-spacing: 1.2px;
+            margin-bottom: 6px;
+            border-bottom: 1px solid var(--border-stone);
+            padding-bottom: 4px;
+            font-weight: 700;
+        }
+        .matchup-box {
+            background: #141924;
+            border: 1px solid var(--border-stone);
+            border-radius: 3px;
+            padding: 10px;
+        }
+        .bracket-team-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 6px;
+        }
+        .bracket-team-row:last-child { margin-bottom: 0; }
+        .bracket-team-input {
+            margin-bottom: 0;
+            padding: 7px 10px;
+            font-size: 0.85em;
+            font-weight: 600;
+            background: #090c12;
+            border: 1px solid var(--border-stone);
+            color: var(--text-main);
+        }
+
+        .console-output {
+            background: #080a0f;
+            border: 1px solid var(--border-stone);
+            padding: 10px 14px;
+            border-radius: 2px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.82em;
+            color: #9ab4c7;
+            min-height: 38px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HUD Header -->
+    <div class="hud-header">
+        <div class="hud-title">
+            <span class="hud-badge">TERMINAL // 04</span>
+            <h1>Halo CE Tournament Operations Console</h1>
+        </div>
+        
+        <div class="mode-toggle-bar">
+            <span style="font-size: 0.75em; color: var(--text-muted); text-transform: uppercase; margin-right: 4px;">Modalidad:</span>
+            <button class="btn-mode active" id="btn-mode-teams" onclick="setMatchMode('teams')">Equipos (Rojo vs Azul)</button>
+            <button class="btn-mode" id="btn-mode-ffa" onclick="setMatchMode('ffa')">Todos contra Todos (FFA)</button>
+            <span class="hud-badge" style="margin-left: 8px;">PORT 2302</span>
+        </div>
+    </div>
+
+    <!-- Active Match Showcase Banner -->
+    <div class="match-banner" id="active-match-banner">
+        <div class="team-box" id="banner-red-box">
+            <div class="team-title red-team" id="disp-red">Equipo Rojo</div>
+            <small style="color: var(--text-muted); letter-spacing: 1px;">ESTACION ALFA</small>
+        </div>
+        <div class="vs-badge" id="banner-vs">VS</div>
+        <div class="team-box" id="banner-blue-box">
+            <div class="team-title blue-team" id="disp-blue">Equipo Azul</div>
+            <small style="color: var(--text-muted); letter-spacing: 1px;">ESTACION BRAVO</small>
+        </div>
+        <div id="banner-ffa-box" style="display:none; text-align:center; width: 100%;">
+            <div class="team-title" style="color: var(--forerunner-gold);">MODO: TODOS CONTRA TODOS (FREE FOR ALL)</div>
+            <small style="color: var(--text-muted); letter-spacing: 1px;">SLAYER INDIVIDUAL // SIN BANDOS</small>
+        </div>
+    </div>
+
+    <!-- Navegación de Pestañas -->
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab(event, 'main-tab')">Panel Principal y Mapas</button>
+        <button class="tab-btn" onclick="switchTab(event, 'gametype-tab')">Creador de Variantes Custom</button>
+        <button class="tab-btn" onclick="switchTab(event, 'bracket-tab')">Brackets Editables</button>
+        <button class="tab-btn" onclick="switchTab(event, 'server-tab')">Consola RCON</button>
+    </div>
+
+    <!-- TAB 1: Panel Principal (Mapas + KDA Ranking Integrado) -->
+    <div id="main-tab" class="tab-content active">
+        
+        <!-- Carrusel y Votación de Mapas -->
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.15em; text-transform: uppercase;">Selección de Mapas & Votación</h2>
+                    <small style="color: var(--text-muted);">Elige manualmente qué mapas poner en cola para la votación de los jugadores:</small>
+                </div>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <button class="btn btn-steel" onclick="filterSmallMaps()">Solo Mapas Pequeños</button>
+                    <button class="btn btn-gold" onclick="launchSelectedVote()">Lanzar Votación con Selección</button>
+                    <button class="btn btn-red" onclick="voteAction('end')">Cerrar Votación</button>
+                    <button class="btn btn-gold" onclick="spinRouletteSelected()">Ruleta con Selección</button>
+                </div>
+            </div>
+
+            <!-- Carrusel de Mapas -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="map-carousel"></div>
+            </div>
+
+            <div class="console-output" id="roulette-status">> Sistema listo. Marca las casillas de los mapas que desees habilitar para la votación.</div>
+        </div>
+
+        <!-- Ranking KDA de Equipos en el Panel Principal -->
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.15em; text-transform: uppercase;">Ranking KDA de la Partida</h2>
+                    <small style="color: var(--text-muted);">Estadísticas registradas en el backend para la partida actual:</small>
+                </div>
+                <div style="display: flex; gap: 6px;">
+                    <button class="btn btn-steel" onclick="fetchKdaFromBackend()">Sincronizar</button>
+                    <button class="btn btn-red" onclick="resetStatsBackend()">Reiniciar Partida</button>
+                </div>
+            </div>
+
+            <!-- Formulario de Entrada Rápida de Stats -->
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; margin-bottom: 12px; background: #0c0f15; padding: 12px; border-radius: 3px; border: 1px solid var(--border-stone);">
+                <input type="text" id="stat-player" placeholder="Gamertag" style="flex: 2; min-width: 140px; margin-bottom: 0;">
+                <select id="stat-team-select" style="flex: 1.5; min-width: 130px; margin-bottom: 0;">
+                    <option value="Rojo">Equipo Rojo</option>
+                    <option value="Azul">Equipo Azul</option>
+                    <option value="FFA">Independiente (FFA)</option>
+                </select>
+                <input type="number" id="stat-k" placeholder="Kills" style="width: 75px; margin-bottom: 0;">
+                <input type="number" id="stat-d" placeholder="Deaths" style="width: 75px; margin-bottom: 0;">
+                <input type="number" id="stat-a" placeholder="Assists" style="width: 75px; margin-bottom: 0;">
+                <button class="btn btn-green" onclick="addPlayerStatBackend()" style="margin-left: auto;">Registrar</button>
+            </div>
+
+            <!-- Vista Dual Equipos (Rojo vs Azul) -->
+            <div class="kda-split-grid" id="kda-team-view">
+                <div class="team-kda-panel red">
+                    <div class="team-header-bar">
+                        <strong class="red-team" id="kda-team-red-label">EQUIPO ROJO</strong>
+                        <span class="hud-badge" id="kda-red-total">0 KILLS</span>
+                    </div>
+                    <table class="kda-table">
+                        <thead>
+                            <tr>
+                                <th>Jugador</th>
+                                <th>K</th>
+                                <th>D</th>
+                                <th>A</th>
+                                <th>K/D</th>
+                                <th>Badge</th>
+                            </tr>
+                        </thead>
+                        <tbody id="kda-body-red"></tbody>
+                    </table>
+                </div>
+
+                <div class="team-kda-panel blue">
+                    <div class="team-header-bar">
+                        <strong class="blue-team" id="kda-team-blue-label">EQUIPO AZUL</strong>
+                        <span class="hud-badge" id="kda-blue-total">0 KILLS</span>
+                    </div>
+                    <table class="kda-table">
+                        <thead>
+                            <tr>
+                                <th>Jugador</th>
+                                <th>K</th>
+                                <th>D</th>
+                                <th>A</th>
+                                <th>K/D</th>
+                                <th>Badge</th>
+                            </tr>
+                        </thead>
+                        <tbody id="kda-body-blue"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Vista FFA (Todos contra Todos) -->
+            <div id="kda-ffa-view" style="display:none; margin-top: 14px;">
+                <div class="team-kda-panel ffa">
+                    <div class="team-header-bar">
+                        <strong style="color: var(--forerunner-gold);">RANKING GLOBAL // TODOS CONTRA TODOS</strong>
+                        <span class="hud-badge" id="kda-ffa-total">0 JUGADORES</span>
+                    </div>
+                    <table class="kda-table">
+                        <thead>
+                            <tr>
+                                <th>Posición</th>
+                                <th>Jugador</th>
+                                <th>Kills (Bajas)</th>
+                                <th>Deaths</th>
+                                <th>Assists</th>
+                                <th>K/D Ratio</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="kda-body-ffa"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="console-output" id="kda-status">> Estadísticas vinculadas a 'tournament_data.json'.</div>
+        </div>
+    </div>
+
+    <!-- TAB 2: Creador de Variantes Custom -->
+    <div id="gametype-tab" class="tab-content">
+        <div class="card">
+            <h2>Configurador de Variantes Custom</h2>
+            <p style="color: var(--text-muted);">Crea partidas personalizadas y genera configuraciones automáticas para el servidor:</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;">
+                <div>
+                    <label>Nombre de la Variante:</label>
+                    <input type="text" id="gt-name" value="Torneo_MLG_Slayer">
+
+                    <label>Modo Base:</label>
+                    <select id="gt-mode">
+                        <option value="slayer">Team Slayer</option>
+                        <option value="ctf">Capture The Flag</option>
+                        <option value="king">King of the Hill</option>
+                        <option value="oddball">Oddball</option>
+                        <option value="race">Race</option>
+                    </select>
+
+                    <label>Límite de Puntuación:</label>
+                    <input type="number" id="gt-score" value="50">
+
+                    <label>Límite de Tiempo (Minutos):</label>
+                    <input type="number" id="gt-time" value="15">
+                </div>
+
+                <div>
+                    <label>Arma Primaria Inicial:</label>
+                    <select id="gt-wep1">
+                        <option value="pistol">M6D Magnum (Pistol)</option>
+                        <option value="sniper">Sniper Rifle 99D-S2</option>
+                        <option value="shotgun">M90 Shotgun</option>
+                        <option value="ar">MA5B Assault Rifle</option>
+                        <option value="rocket">Rocket Launcher M19</option>
+                    </select>
+
+                    <label>Arma Secundaria Inicial:</label>
+                    <select id="gt-wep2">
+                        <option value="ar">MA5B Assault Rifle</option>
+                        <option value="pistol">M6D Magnum</option>
+                        <option value="plasma_rifle">Plasma Rifle</option>
+                        <option value="none">Ninguna</option>
+                    </select>
+
+                    <label>Escudos y Salud:</label>
+                    <select id="gt-shields">
+                        <option value="normal">Normal (100% Escudos)</option>
+                        <option value="overshield">Double Overshields</option>
+                        <option value="hardcore">Sin Escudos (Hardcore)</option>
+                    </select>
+
+                    <label>Sensor de Movimiento (Radar):</label>
+                    <select id="gt-radar">
+                        <option value="1">Activado</option>
+                        <option value="0">Desactivado (Competitivo)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
+                <button class="btn btn-green" onclick="saveGametype()">Guardar y Aplicar en Servidor</button>
+                <button class="btn btn-steel" onclick="loadGametypePreset('mlg')">Preset: MLG 2v2</button>
+                <button class="btn btn-steel" onclick="loadGametypePreset('snipers')">Preset: Team Snipers</button>
+            </div>
+            <div class="console-output" id="gametype-status">> Listo para configurar variantes.</div>
+        </div>
+    </div>
+
+    <!-- TAB 3: Brackets Editables Conectados a la Partida -->
+    <div id="bracket-tab" class="tab-content">
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.15em;">Cuadro de Torneo (Brackets Editables)</h2>
+                    <small style="color: var(--text-muted);">Escribe los nombres de los equipos y haz clic en 'Cargar como Partida' para ponerlos en juego:</small>
+                </div>
+                <button class="btn btn-green" onclick="saveBracketToBackend()">Guardar Brackets en Backend</button>
+            </div>
+
+            <div class="bracket-tree">
+                <!-- Ronda 1: Semifinales -->
+                <div class="bracket-round">
+                    <div class="round-title">Semifinal 1</div>
+                    <div class="matchup-box">
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-semi1-t1" value="skibidis">
+                            <button class="btn btn-steel btn-advance" onclick="advanceToFinal('b-semi1-t1', 'b-final-t1')">Ganador</button>
+                        </div>
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-semi1-t2" value="toiles">
+                            <button class="btn btn-steel btn-advance" onclick="advanceToFinal('b-semi1-t2', 'b-final-t1')">Ganador</button>
+                        </div>
+                        <button class="btn btn-steel" style="width: 100%; margin-top: 6px; font-size: 0.72em;" onclick="loadMatchPair('b-semi1-t1', 'b-semi1-t2', 'Semifinal 1')">Cargar como Partida Actual</button>
+                    </div>
+
+                    <div class="round-title">Semifinal 2</div>
+                    <div class="matchup-box">
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-semi2-t1" value="Equipo Charlie">
+                            <button class="btn btn-steel btn-advance" onclick="advanceToFinal('b-semi2-t1', 'b-final-t2')">Ganador</button>
+                        </div>
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-semi2-t2" value="Equipo Delta">
+                            <button class="btn btn-steel btn-advance" onclick="advanceToFinal('b-semi2-t2', 'b-final-t2')">Ganador</button>
+                        </div>
+                        <button class="btn btn-steel" style="width: 100%; margin-top: 6px; font-size: 0.72em;" onclick="loadMatchPair('b-semi2-t1', 'b-semi2-t2', 'Semifinal 2')">Cargar como Partida Actual</button>
+                    </div>
+                </div>
+
+                <!-- Ronda 2: Gran Final -->
+                <div class="bracket-round">
+                    <div class="round-title">Gran Final</div>
+                    <div class="matchup-box">
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-final-t1" placeholder="Ganador Semifinal 1">
+                            <button class="btn btn-gold btn-advance" onclick="setChampionFromField('b-final-t1')">Campeón</button>
+                        </div>
+                        <div class="bracket-team-row">
+                            <input type="text" class="bracket-team-input" id="b-final-t2" placeholder="Ganador Semifinal 2">
+                            <button class="btn btn-gold btn-advance" onclick="setChampionFromField('b-final-t2')">Campeón</button>
+                        </div>
+                        <button class="btn btn-gold" style="width: 100%; margin-top: 8px; font-size: 0.75em;" onclick="loadMatchPair('b-final-t1', 'b-final-t2', 'Gran Final')">Cargar Gran Final a Servidor</button>
+                    </div>
+                </div>
+
+                <!-- Campeón -->
+                <div class="bracket-round">
+                    <div class="round-title">Campeón del Torneo</div>
+                    <div class="card" style="text-align: center; border-color: var(--forerunner-gold); background: #11151e;">
+                        <span class="hud-badge">[TITULO DE CAMPEON]</span>
+                        <h2 id="champion-name" style="color: var(--forerunner-gold); margin: 12px 0; text-transform: uppercase;">Por Definir</h2>
+                        <small style="color: var(--text-muted); letter-spacing: 1px;">INSTALACION 04 // PROTOCOLO DE COMBATE</small>
+                    </div>
+                </div>
+            </div>
+            <div class="console-output" id="bracket-status">> Estado de brackets sincronizado.</div>
+        </div>
+    </div>
+
+    <!-- TAB 4: Consola RCON -->
+    <div id="server-tab" class="tab-content">
+        <div class="card">
+            <h2>Consola de Administración RCON</h2>
+            <p style="color: var(--text-muted);">Envía comandos manuales a la consola de Halo CE:</p>
+            <input type="text" id="rcon-input" placeholder="sv_map beavercreek team_slayer o say [mensaje]">
+            <button class="btn btn-steel" onclick="sendRcon()">Ejecutar Comando</button>
+            <div class="console-output" id="rcon-output">> Terminal RCON en espera.</div>
+        </div>
+    </div>
+
+    <script>
+        // Catálogo de mapas con indicador de mapas pequeños
+        const MAP_CATALOG = [
+            { id: "beavercreek", name: "Battle Creek", size: "2 - 8 Jugadores", type: "Canyon / Bases", is_small: true, img: "/static/maps/beavercreek.jpg" },
+            { id: "prisoner",    name: "Prisoner",     size: "2 - 4 Jugadores", type: "Plataforma Forerunner", is_small: true, img: "/static/maps/prisoner.jpg" },
+            { id: "chillout",    name: "Chill Out",    size: "2 - 6 Jugadores", type: "Laboratorio Criogénico", is_small: true, img: "/static/maps/chillout.jpg" },
+            { id: "wizard",      name: "Wizard",       size: "2 - 4 Jugadores", type: "Arena Simétrica", is_small: true, img: "/static/maps/wizard.jpg" },
+            { id: "damnation",   name: "Damnation",    size: "4 - 8 Jugadores", type: "Planta Hidroeléctrica", is_small: true, img: "/static/maps/damnation.jpg" },
+            { id: "hangemhigh",  name: "Hang 'Em High",size: "4 - 16 Jugadores",type: "Tumbas Monolíticas", is_small: false, img: "/static/maps/hangemhigh.jpg" },
+            { id: "bloodgulch",  name: "Blood Gulch",  size: "4 - 16 Jugadores",type: "Canyon Abierto", is_small: false, img: "/static/maps/bloodgulch.jpg" },
+            { id: "sidewinder",  name: "Sidewinder",   size: "4 - 16 Jugadores",type: "Valle Glaciar", is_small: false, img: "/static/maps/sidewinder.jpg" }
+        ];
+
+        let currentMatchMode = "teams"; // "teams" o "ffa"
+
+        function initCarousel() {
+            const track = document.getElementById("map-carousel");
+            if (!track) return;
+            track.innerHTML = "";
+
+            MAP_CATALOG.forEach(m => {
+                const card = document.createElement("div");
+                card.className = "map-card";
+                card.id = `card-${m.id}`;
+                
+                // Fallback elegante a diseño Forerunner si la imagen física aún no se ha descargado
+                const fallbackSvg = `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='280' height='140' style='background:%230b0e14;'><rect width='100%' height='100%' fill='none' stroke='%23262e3c' stroke-width='2'/><path d='M20 70 L260 70 M140 20 L140 120' stroke='%233c495d' stroke-dasharray='4,4'/><text x='50%' y='52%' fill='%23c5a059' font-family='sans-serif' font-size='12' font-weight='bold' text-anchor='middle'>[VISTA PREVIA FORERUNNER]</text></svg>`;
+
+                card.innerHTML = `
+                    <div class="map-img-container" style="background-image: url('${m.img}'), url('${fallbackSvg}');">
+                        <span class="map-tag">${m.size}</span>
+                    </div>
+                    <div class="map-details">
+                        <div class="map-name">${m.name}</div>
+                        <div class="map-desc">${m.type}</div>
+                        <label class="vote-checkbox-label">
+                            <input type="checkbox" class="vote-checkbox" value="${m.id}" ${m.is_small ? "checked" : ""}>
+                            Incluir en Votación
+                        </label>
+                        <button class="btn btn-steel" style="width:100%; font-size:0.75em;" onclick="loadMap('${m.id}')">Desplegar al Servidor</button>
+                    </div>
+                `;
+                track.appendChild(card);
+            });
+        }
+
+        function filterSmallMaps() {
+            document.querySelectorAll(".vote-checkbox").forEach(cb => {
+                const mapMeta = MAP_CATALOG.find(m => m.id === cb.value);
+                cb.checked = mapMeta ? mapMeta.is_small : false;
+            });
+            document.getElementById("roulette-status").innerText = "> Votación filtrada únicamente a mapas pequeños (2-8 jugadores).";
+        }
+
+        function getSelectedVoteMaps() {
+            const selected = [];
+            document.querySelectorAll(".vote-checkbox:checked").forEach(cb => {
+                selected.push(cb.value);
+            });
+            return selected.length > 0 ? selected : ["beavercreek", "prisoner", "wizard"];
+        }
+
+        async function launchSelectedVote() {
+            const maps = getSelectedVoteMaps();
+            document.getElementById("roulette-status").innerText = `> Lanzando votación en chat con ${maps.length} mapas seleccionados: ${maps.join(", ")}...`;
+            try {
+                const res = await fetch("/api/vote/custom", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({ maps })
+                });
+                const data = await res.json();
+                document.getElementById("roulette-status").innerText = `> Votación iniciada en chat: ${maps.join(", ")}. Los jugadores ya pueden votar (1, 2, 3...).`;
+            } catch (e) {
+                document.getElementById("roulette-status").innerText = `> Error lanzando votación: ${e.message}`;
+            }
+        }
+
+        async function spinRouletteSelected() {
+            const maps = getSelectedVoteMaps();
+            document.getElementById("roulette-status").innerText = "> Girando ruleta con los mapas seleccionados...";
+            try {
+                const res = await fetch("/api/roulette", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({ pool: maps })
+                });
+                const data = await res.json();
+                document.getElementById("roulette-status").innerText = `> Mapa Ganador de Ruleta: ${data.selected.name} desplegado en servidor.`;
+            } catch (e) {
+                document.getElementById("roulette-status").innerText = `> Error: ${e.message}`;
+            }
+        }
+
+        async function voteAction(act) {
+            const res = await fetch("/api/vote/" + act, { method: "POST" });
+            const data = await res.json();
+            document.getElementById("roulette-status").innerText = `> Votación finalizada. Mapa ganador cargado.`;
+        }
+
+        async function loadMap(mapId) {
+            const mode = document.getElementById("gt-mode") ? document.getElementById("gt-mode").value : "team_slayer";
+            document.getElementById("roulette-status").innerText = `> Desplegando ${mapId} (${mode})...`;
+            const res = await fetch("/api/map", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({ map_id: mapId, gametype: mode })
+            });
+            const data = await res.json();
+            document.getElementById("roulette-status").innerText = `> Servidor: ${data.response}`;
+        }
+
+        // Modalidad: Equipos vs FFA
+        function setMatchMode(mode) {
+            currentMatchMode = mode;
+            document.getElementById("btn-mode-teams").classList.toggle("active", mode === "teams");
+            document.getElementById("btn-mode-ffa").classList.toggle("active", mode === "ffa");
+            
+            const banner = document.getElementById("active-match-banner");
+            const redBox = document.getElementById("banner-red-box");
+            const blueBox = document.getElementById("banner-blue-box");
+            const vsBadge = document.getElementById("banner-vs");
+            const ffaBox = document.getElementById("banner-ffa-box");
+
+            const teamKda = document.getElementById("kda-team-view");
+            const ffaKda = document.getElementById("kda-ffa-view");
+
+            if (mode === "ffa") {
+                banner.classList.add("ffa-mode");
+                redBox.style.display = "none";
+                blueBox.style.display = "none";
+                vsBadge.style.display = "none";
+                ffaBox.style.display = "block";
+                
+                teamKda.style.display = "none";
+                ffaKda.style.display = "block";
+            } else {
+                banner.classList.remove("ffa-mode");
+                redBox.style.display = "block";
+                blueBox.style.display = "block";
+                vsBadge.style.display = "block";
+                ffaBox.style.display = "none";
+                
+                teamKda.style.display = "grid";
+                ffaKda.style.display = "none";
+            }
+
+            fetch("/api/state", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({ match_mode: mode })
+            });
+            fetchKdaFromBackend();
+        }
+
+        // Navegación de Pestañas
+        function switchTab(evt, tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            const target = document.getElementById(tabId);
+            if (target) target.classList.add('active');
+            if (evt && evt.target) evt.target.classList.add('active');
+        }
+
+        // Brackets Editables
+        function advanceToFinal(sourceInputId, targetInputId) {
+            const teamName = document.getElementById(sourceInputId).value.trim();
+            if (teamName) {
+                document.getElementById(targetInputId).value = teamName;
+                document.getElementById("bracket-status").innerText = `> ${teamName} avanzado a la Gran Final.`;
+            }
+        }
+
+        function setChampionFromField(fieldId) {
+            const champ = document.getElementById(fieldId).value.trim();
+            if (champ) {
+                document.getElementById("champion-name").innerText = champ;
+                document.getElementById("bracket-status").innerText = `> ${champ} proclamado Campeón.`;
+            }
+        }
+
+        function loadMatchPair(t1Id, t2Id, matchTitle) {
+            const t1 = document.getElementById(t1Id).value.trim() || "Equipo Rojo";
+            const t2 = document.getElementById(t2Id).value.trim() || "Equipo Azul";
+            
+            document.getElementById("disp-red").innerText = t1;
+            document.getElementById("disp-blue").innerText = t2;
+            document.getElementById("kda-team-red-label").innerText = t1.toUpperCase();
+            document.getElementById("kda-team-blue-label").innerText = t2.toUpperCase();
+
+            fetch("/api/state", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({ team_red: t1, team_blue: t2, current_match: matchTitle })
+            });
+            document.getElementById("bracket-status").innerText = `> Partida activa actualizada en el servidor: ${t1} vs ${t2}.`;
+        }
+
+        async function saveBracketToBackend() {
+            const bracketData = {
+                semi1_t1: document.getElementById("b-semi1-t1").value,
+                semi1_t2: document.getElementById("b-semi1-t2").value,
+                semi2_t1: document.getElementById("b-semi2-t1").value,
+                semi2_t2: document.getElementById("b-semi2-t2").value,
+                final_t1: document.getElementById("b-final-t1").value,
+                final_t2: document.getElementById("b-final-t2").value,
+                champion: document.getElementById("champion-name").innerText
+            };
+            await fetch("/api/bracket", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify(bracketData)
+            });
+            document.getElementById("bracket-status").innerText = "> Brackets guardados en 'tournament_data.json'.";
+        }
+
+        async function loadBracketFromBackend() {
+            try {
+                const res = await fetch("/api/bracket");
+                const data = await res.json();
+                if (data && data.semi1_t1) {
+                    document.getElementById("b-semi1-t1").value = data.semi1_t1;
+                    document.getElementById("b-semi1-t2").value = data.semi1_t2;
+                    document.getElementById("b-semi2-t1").value = data.semi2_t1;
+                    document.getElementById("b-semi2-t2").value = data.semi2_t2;
+                    document.getElementById("b-final-t1").value = data.final_t1 || "";
+                    document.getElementById("b-final-t2").value = data.final_t2 || "";
+                    document.getElementById("champion-name").innerText = data.champion || "Por Definir";
+                }
+            } catch (e) {}
+        }
+
+        // KDA Backend
+        async function fetchKdaFromBackend() {
+            try {
+                const res = await fetch("/api/stats");
+                const data = await res.json();
+                renderStats(data.stats || []);
+            } catch (e) {
+                renderStats([]);
+            }
+        }
+
+        function renderStats(list) {
+            const bodyRed = document.getElementById("kda-body-red");
+            const bodyBlue = document.getElementById("kda-body-blue");
+            const bodyFfa = document.getElementById("kda-body-ffa");
+
+            bodyRed.innerHTML = "";
+            bodyBlue.innerHTML = "";
+            bodyFfa.innerHTML = "";
+
+            let redKills = 0;
+            let blueKills = 0;
+
+            // Ordenar por bajas descendente
+            list.sort((a, b) => (b.k || 0) - (a.k || 0));
+
+            const topKills = list.length > 0 ? (list[0].k || 0) : 0;
+
+            list.forEach((p, idx) => {
+                const kd = ((p.k || 0) / Math.max(1, p.d || 0)).toFixed(2);
+                const isMvp = (p.k || 0) === topKills && topKills > 0;
+                const badgeHtml = isMvp ? '<span class="badge-mvp">[TOP FRAGGER]</span>' : '<small style="color:var(--text-dim);">-</small>';
+
+                const isRed = (p.team || "").toLowerCase().includes("rojo") || (p.team || "").toLowerCase().includes("red");
+                const isBlue = (p.team || "").toLowerCase().includes("azul") || (p.team || "").toLowerCase().includes("blue");
+
+                if (isRed) redKills += (p.k || 0);
+                if (isBlue) blueKills += (p.k || 0);
+
+                const rowHtml = `
+                    <tr>
+                        <td><strong>${p.name}</strong></td>
+                        <td>${p.k || 0}</td>
+                        <td>${p.d || 0}</td>
+                        <td>${p.a || 0}</td>
+                        <td>${kd}</td>
+                        <td>${badgeHtml}</td>
+                    </tr>
+                `;
+
+                if (isRed) bodyRed.innerHTML += rowHtml;
+                else if (isBlue) bodyBlue.innerHTML += rowHtml;
+                else {
+                    bodyRed.innerHTML += rowHtml; // fallback
+                }
+
+                // FFA Row
+                bodyFfa.innerHTML += `
+                    <tr>
+                        <td><strong>#${idx + 1}</strong></td>
+                        <td><strong>${p.name}</strong></td>
+                        <td>${p.k || 0}</td>
+                        <td>${p.d || 0}</td>
+                        <td>${p.a || 0}</td>
+                        <td>${kd}</td>
+                        <td>${badgeHtml}</td>
+                    </tr>
+                `;
+            });
+
+            document.getElementById("kda-red-total").innerText = `${redKills} KILLS`;
+            document.getElementById("kda-blue-total").innerText = `${blueKills} KILLS`;
+            document.getElementById("kda-ffa-total").innerText = `${list.length} JUGADORES`;
+        }
+
+        async function addPlayerStatBackend() {
+            const name = document.getElementById("stat-player").value.trim();
+            const team = document.getElementById("stat-team-select").value;
+            const k = parseInt(document.getElementById("stat-k").value) || 0;
+            const d = parseInt(document.getElementById("stat-d").value) || 0;
+            const a = parseInt(document.getElementById("stat-a").value) || 0;
+            if (!name) return;
+
+            const res = await fetch("/api/stats", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({ name, team, k, d, a })
+            });
+            const data = await res.json();
+            renderStats(data.stats);
+            document.getElementById("stat-player").value = "";
+            document.getElementById("stat-k").value = "";
+            document.getElementById("stat-d").value = "";
+            document.getElementById("stat-a").value = "";
+        }
+
+        async function resetStatsBackend() {
+            if (confirm("¿Reiniciar todas las estadísticas para la siguiente partida?")) {
+                const res = await fetch("/api/stats", { method: "DELETE" });
+                const data = await res.json();
+                renderStats(data.stats || []);
+            }
+        }
+
+        async function sendRcon() {
+            const cmd = document.getElementById("rcon-input").value;
+            const res = await fetch("/api/command", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({ command: cmd })
+            });
+            const data = await res.json();
+            document.getElementById("rcon-output").innerText = `> ${data.response}`;
+        }
+
+        window.addEventListener("DOMContentLoaded", () => {
+            initCarousel();
+            loadBracketFromBackend();
+            fetchKdaFromBackend();
+        });
+    </script>
+</body>
+</html>

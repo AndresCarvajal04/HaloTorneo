@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Halopedia, the Halo wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"mdy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"4f6e499f7291d0a27bcdc00e","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":1767489,"wgRevisionId":1767489,"wgArticleId":5,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Main page"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Main_Page","wgRelevantArticleId":5,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgCiteReferencePreviewsActive":true,"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgPopupsFlags":0,"wgSiteNoticeId":"1.328","wgRelatedArticlesCompat":[],"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};
+RLSTATE={"ext.gadget.StaffHighlights":"ready","ext.gadget.ResponsiveStyle":"ready","ext.gadget.MainPageStyle":"ready","ext.gadget.NavboxStyle":"ready","ext.gadget.GlobalStyle":"ready","ext.gadget.Wallpapers":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.dismissableSiteNotice.styles":"ready","ext.inputBox.styles":"ready","skins.nimbus":"ready"};RLPAGEMODULES=["ext.dismissableSiteNotice","site","mediawiki.page.ready","ext.checkUser.clientHints","ext.gadget.GlobalScript","ext.gadget.Countdown","ext.gadget.ExplainTooltips","ext.gadget.DarkToggle","ext.gadget.TabSystem","ext.gadget.SpoilerWarning","ext.gadget.HalopediaSecret","mmv.bootstrap","ext.popups","skins.nimbus.menu"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"diffonly":1});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.dismissableSiteNotice.styles%7Cext.inputBox.styles%7Cskins.nimbus&amp;only=styles&amp;skin=nimbus">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=nimbus"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.GlobalStyle%2CMainPageStyle%2CNavboxStyle%2CResponsiveStyle%2CStaffHighlights%2CWallpapers&amp;only=styles&amp;skin=nimbus">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=nimbus">
+<meta name="generator" content="MediaWiki 1.43.11">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#7E875C">
+<meta name="description" content="Halopedia is a comprehensive wiki and encyclopedia dedicated to the Halo video game franchise from Microsoft, with 17,264 articles.">
+<meta name="keywords" content="halo wiki, halopedia, halo nation, halo alpha, halo wikia, halo fandom, halo, wiki">
+<meta name="twitter:site" content="@Halopedia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=1120">
+<link rel="apple-touch-icon" href="https://halo.wiki.gallery/images/apple-touch-icon.png">
+<link rel="icon" href="https://halo.wiki.gallery/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/rest.php/v1/search" title="Halopedia">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.halopedia.org/api.php?action=rsd">
+<link rel="canonical" href="https://www.halopedia.org/">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="alternate" type="application/atom+xml" title="Halopedia Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom">
+<meta property="og:image" content="https://halo.wiki.gallery/images/halopedia.png"/>
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/global.css">
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/desktop.css">
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/nimbus.css">
+<style type="text/css">
+@import url(https://wiki.gallery/1_43/css/dark/all.css) (prefers-color-scheme: dark);
+@import url(https://wiki.gallery/1_43/css/dark/bungie.css) (prefers-color-scheme: dark);
+@import url(/MediaWiki:Dark.css?action=raw&ctype=text/css) (prefers-color-scheme: dark);
+@import url(https://wiki.gallery/1_43/css/dark/nimbus.css) (prefers-color-scheme: dark);
+@import url(/MediaWiki:DarkNimbus.css?action=raw&ctype=text/css) (prefers-color-scheme: dark);
+</style>
+<style type="text/css">.mediawiki .mw-dismissable-notice { display: block; }</style>
+<link rel="preconnect" href="https://a.pub.network/" crossorigin />
+<link rel="preconnect" href="https://b.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.pub.network/" crossorigin />
+<link rel="preconnect" href="https://d.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://s.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://btloader.com/" crossorigin />
+<link rel="preconnect" href="https://api.btloader.com/" crossorigin />
+<link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECEG94X7M7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ECEG94X7M7');
+</script>
+<!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = 'www.halopedia.org';
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.inmobi.com'
+    .concat('/choice/', 'v0NnnH1M4W081', '/', host, '/choice.js?tag_version=V3');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V3' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.disabledProducts = {
+    googleInterstitial: true,
+    videoAdhesion: true,
+    video: true,
+  };
+  freestar.config.enabled_slots = [];
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+</script>
+<script src="https://a.pub.network/halopedia-org/pubfig.min.js" data-cfasync="false" async></script>
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/freestar/ads.css">
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/freestar/dark.css">
+<link rel="stylesheet" href="https://wiki.gallery/1_43/css/freestar/sticky.css">
+<meta property="og:title" content="Halopedia"/>
+<meta property="og:url" content="https://www.halopedia.org/">
+<meta property="og:description" content="Halopedia is a comprehensive wiki and encyclopedia dedicated to the Halo video game franchise from Microsoft, with 17,264 articles.">
+<meta property="article:tag" content="halo wiki, halopedia, halo nation, halo alpha, halo wikia, halo fandom, halo, wiki">
+<meta property="article:modified_time" content="2026-08-23T14:06:55Z">
+<meta property="article:published_time" content="2026-08-23T14:06:55Z">
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","name":"Halopedia, the Halo wiki","headline":"Halopedia, the Halo wiki","mainEntityOfPage":"Main Page","identifier":"https:\/\/www.halopedia.org\/","url":"https:\/\/www.halopedia.org\/","description":"Halopedia is a comprehensive wiki and encyclopedia dedicated to the Halo video game franchise from Microsoft, with 17,264 articles.","keywords":"halo wiki, halopedia, halo nation, halo alpha, halo wikia, halo fandom, halo, wiki","dateModified":"2026-08-23T14:06:55Z","datePublished":"2026-08-23T14:06:55Z","image":{"@type":"ImageObject"},"author":{"@type":"Organization","name":"Halopedia","url":"https:\/\/www.halopedia.org","logo":{"@type":"ImageObject","caption":"Halopedia"}},"publisher":{"@type":"Organization","name":"Halopedia","url":"https:\/\/www.halopedia.org","logo":{"@type":"ImageObject","caption":"Halopedia"}},"potentialAction":{"@type":"SearchAction","target":"https:\/\/www.halopedia.org\/index.php?title=Special:Search&search={search_term}","query-input":"required name=search_term"}}</script>
+<meta property="og:type" content="website"/>
+</head>
+<body class="mw-1_43 porple halopedia desktop rootpage ns-content anon newbie syntax-highlight bungie light sitenotice-shown mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Main_Page rootpage-Main_Page skin-nimbus action-view"><div id="container">
+	<div id="search-top" class="noprint">
+		<form action="/index.php" id="searchform">
+			<input id="searchInput" type="text" title="Search Halopedia" class="search-field" name="search" placeholder="Search Halopedia" />
+			<input type="image" title="Search the pages for this text" src="//halo.wiki.gallery/images/search.png" class="search-button" alt="search" />
+		</form>
+	</div>
+	<header id="header" class="noprint">
+				<div id="wiki-login">
+<a class="mw-skin-nimbus-button positive-button" href="https://www.halopedia.org/Special:CreateAccount" rel="nofollow"><span>Sign up</span></a><a class="mw-skin-nimbus-button positive-button" href="https://www.halopedia.org/Special:UserLogin" id="nimbusLoginButton"><span>Log in</span></a>		</div><!-- #wiki-login -->
+	</header><!-- #header -->
+	<div id="site-header" class="noprint">
+		<div id="site-logo">
+			<a href="https://www.halopedia.org/" title="Visit the main page" accesskey="" rel="nofollow">
+			</a>
+		</div>
+	</div>
+	<aside id="side-bar" class="noprint">
+		<div id="navigation">
+			<div id="navigation-title">Navigation</div>
+			<div class="sub-menu-container" id="menu">
+				<div class="menu-item" id="menu-item_01">
+					<a id="a-menu-item_01" href="/Category:Games">Games<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01"><div class="sub-menu" id="sub-menu_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_01">
+					<a id="a-sub-menu-item_01_01" href="/Category:Video_games">Original trilogy<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_01"><div class="sub-menu" id="sub-menu_01_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_01_01">
+					<a id="a-sub-menu-item_01_01_01" href="/Halo:_Combat_Evolved">Halo: Combat Evolved</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_01_02">
+					<a id="a-sub-menu-item_01_01_02" href="/Halo:_Combat_Evolved_Anniversary">Halo: Combat Evolved Anniversary</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_01_03">
+					<a id="a-sub-menu-item_01_01_03" href="/Halo:_Campaign_Evolved">Halo: Campaign Evolved</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_01_04">
+					<a id="a-sub-menu-item_01_01_04" href="/Halo_2">Halo 2</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_01_05">
+					<a id="a-sub-menu-item_01_01_05" href="/Halo_2:_Anniversary">Halo 2: Anniversary</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_01_06">
+					<a id="a-sub-menu-item_01_01_06" href="/Halo_3">Halo 3</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_02">
+					<a id="a-sub-menu-item_01_02" href="/Category:Video_games">Mainline 343i games<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_02"><div class="sub-menu" id="sub-menu_01_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_02_01">
+					<a id="a-sub-menu-item_01_02_01" href="/Halo_4">Halo 4</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_02_02">
+					<a id="a-sub-menu-item_01_02_02" href="/Halo_5:_Guardians">Halo 5: Guardians</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_02_03">
+					<a id="a-sub-menu-item_01_02_03" href="/Halo_Infinite">Halo Infinite</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_03">
+					<a id="a-sub-menu-item_01_03" href="/Category:Video_games">Halo: Spartan series<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_03"><div class="sub-menu" id="sub-menu_01_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_03_01">
+					<a id="a-sub-menu-item_01_03_01" href="/Halo:_Spartan_Assault">Halo: Spartan Assault</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_03_02">
+					<a id="a-sub-menu-item_01_03_02" href="/Halo:_Spartan_Strike">Halo: Spartan Strike</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_04">
+					<a id="a-sub-menu-item_01_04" href="/Category:Video_games">Halo Wars series<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_04"><div class="sub-menu" id="sub-menu_01_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_04_01">
+					<a id="a-sub-menu-item_01_04_01" href="/Halo_Wars">Halo Wars</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_04_02">
+					<a id="a-sub-menu-item_01_04_02" href="/Halo_Wars_2">Halo Wars 2</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_05">
+					<a id="a-sub-menu-item_01_05" href="/Category:Video_games">Other games<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_05"><div class="sub-menu" id="sub-menu_01_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_05_01">
+					<a id="a-sub-menu-item_01_05_01" href="/Halo_3:_ODST">Halo 3: ODST</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_05_02">
+					<a id="a-sub-menu-item_01_05_02" href="/Halo:_Reach">Halo: Reach</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_05_03">
+					<a id="a-sub-menu-item_01_05_03" href="/Halo:_Fireteam_Raven">Halo: Fireteam Raven</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06">
+					<a id="a-sub-menu-item_01_06" href="/Category:Video_games">Ports and expansions<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_06"><div class="sub-menu" id="sub-menu_01_06" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_06_01">
+					<a id="a-sub-menu-item_01_06_01" href="/Halo:_Combat_Evolved_(PC_port)">Halo PC</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06_02">
+					<a id="a-sub-menu-item_01_06_02" href="/Halo_Custom_Edition">Halo Custom Edition</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06_03">
+					<a id="a-sub-menu-item_01_06_03" href="/Halo_2_Multiplayer_Map_Pack">Halo 2 Multiplayer Map Pack</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06_04">
+					<a id="a-sub-menu-item_01_06_04" href="/Halo_2_(Windows_Vista)">Halo 2 Vista</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06_05">
+					<a id="a-sub-menu-item_01_06_05" href="/Halo_3:_Mythic">Halo 3: Mythic</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_06_06">
+					<a id="a-sub-menu-item_01_06_06" href="/Halo:_The_Master_Chief_Collection">Halo: The Master Chief Collection</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_06_07">
+					<a id="a-sub-menu-item_01_06_07" href="/Halo_5:_Forge">Halo 5: Forge</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_07">
+					<a id="a-sub-menu-item_01_07" href="/Category:Applications">Applications<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_07"><div class="sub-menu" id="sub-menu_01_07" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_07_01">
+					<a id="a-sub-menu-item_01_07_01" href="/Halo_Waypoint">Halo Waypoint</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_07_02">
+					<a id="a-sub-menu-item_01_07_02" href="/Halo_4:_King_of_the_Hill_Fueled_by_Mountain_Dew">Halo 4: King of the Hill</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_07_03">
+					<a id="a-sub-menu-item_01_07_03" href="/Halo_Channel">Halo Channel</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_07_04">
+					<a id="a-sub-menu-item_01_07_04" href="/Halo_(Windows_10_app)">Halo app</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_07_05">
+					<a id="a-sub-menu-item_01_07_05" href="/Halo_Stickers">Halo Stickers</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_07_06">
+					<a id="a-sub-menu-item_01_07_06" href="/Halo_Recruit">Halo Recruit</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_08">
+					<a id="a-sub-menu-item_01_08" href="/Category:Tabletop_games">Table top<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_08"><div class="sub-menu" id="sub-menu_01_08" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_08_01">
+					<a id="a-sub-menu-item_01_08_01" href="/Category:Tabletop_games">Spartan Games<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_08_01"><div class="sub-menu" id="sub-menu_01_08_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_08_01_01">
+					<a id="a-sub-menu-item_01_08_01_01" href="/Halo:_Fleet_Battles">Halo: Fleet Battles</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_08_01_02">
+					<a id="a-sub-menu-item_01_08_01_02" href="/Halo:_Ground_Command">Halo: Ground Command</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_01_08_02">
+					<a id="a-sub-menu-item_01_08_02" href="/Halo_Interactive_Strategy_Game">Halo Interactive Strategy Game</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_08_03">
+					<a id="a-sub-menu-item_01_08_03" href="/Risk">Halo Risk</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_08_04">
+					<a id="a-sub-menu-item_01_08_04" href="/Monopoly:_Halo_Collector%27s_Edition">Halo Monopoly</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_08_05">
+					<a id="a-sub-menu-item_01_08_05" href="/Halo:_Flashpoint">Halo: Flashpoint</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_09">
+					<a id="a-sub-menu-item_01_09" href="/Category:Deleted_material">Canceled projects<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_01_09"><div class="sub-menu" id="sub-menu_01_09" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_01_09_01">
+					<a id="a-sub-menu-item_01_09_01" href="/Halo:_Chronicles">Halo: Chronicles</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_09_02">
+					<a id="a-sub-menu-item_01_09_02" href="/Titan_(canceled_game)">Titan</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_09_03">
+					<a id="a-sub-menu-item_01_09_03" href="/Haggar">Haggar</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_01_09_04">
+					<a id="a-sub-menu-item_01_09_04" href="/Halo_Online">Halo Online</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_01_09_05">
+					<a id="a-sub-menu-item_01_09_05" href="/Halo:_Starfighter">Halo: Starfighter</a></div></div></div>
+</div></div></div>
+</div>
+				<div class="menu-item" id="menu-item_02">
+					<a id="a-menu-item_02" href="/Halo_novels">Novels<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02"><div class="sub-menu" id="sub-menu_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_01">
+					<a id="a-sub-menu-item_02_01" href="/The_Original_Series">The Original Series<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_01"><div class="sub-menu" id="sub-menu_02_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_01_01">
+					<a id="a-sub-menu-item_02_01_01" href="/Halo:_The_Fall_of_Reach">The Fall of Reach</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_01_02">
+					<a id="a-sub-menu-item_02_01_02" href="/Halo:_The_Flood">The Flood</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_01_03">
+					<a id="a-sub-menu-item_02_01_03" href="/Halo:_First_Strike">First Strike</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_01_04">
+					<a id="a-sub-menu-item_02_01_04" href="/Halo:_Ghosts_of_Onyx">Ghosts of Onyx</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_02">
+					<a id="a-sub-menu-item_02_02" href="/Gray_Team_series">Gray Team<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_02"><div class="sub-menu" id="sub-menu_02_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_02_01">
+					<a id="a-sub-menu-item_02_02_01" href="/Halo:_The_Cole_Protocol">The Cole Protocol</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_02_02">
+					<a id="a-sub-menu-item_02_02_02" href="/Halo:_Envoy">Envoy</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_03">
+					<a id="a-sub-menu-item_02_03" href="/The_Forerunner_Saga">The Forerunner Saga<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_03"><div class="sub-menu" id="sub-menu_02_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_03_01">
+					<a id="a-sub-menu-item_02_03_01" href="/Halo:_Cryptum">Cryptum</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_03_02">
+					<a id="a-sub-menu-item_02_03_02" href="/Halo:_Primordium">Primordium</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_03_03">
+					<a id="a-sub-menu-item_02_03_03" href="/Halo:_Silentium">Silentium<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_03_03"><div class="sub-menu" id="sub-menu_02_03_03" style="display:none;">
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_03_03_01">
+					<a id="a-sub-menu-item_02_03_03_01" href="/Rebirth">Rebirth</a></div></div></div>
+</div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_04">
+					<a id="a-sub-menu-item_02_04" href="/Kilo-Five_Trilogy">Kilo-Five Trilogy<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_04"><div class="sub-menu" id="sub-menu_02_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_04_01">
+					<a id="a-sub-menu-item_02_04_01" href="/Halo:_Glasslands">Glasslands</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_04_02">
+					<a id="a-sub-menu-item_02_04_02" href="/Halo:_The_Thursday_War">The Thursday War</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_04_03">
+					<a id="a-sub-menu-item_02_04_03" href="/Halo:_Mortal_Dictata">Mortal Dictata</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_05">
+					<a id="a-sub-menu-item_02_05" href="/Alpha-Nine_series">Alpha-Nine<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_05"><div class="sub-menu" id="sub-menu_02_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_05_01">
+					<a id="a-sub-menu-item_02_05_01" href="/Halo:_New_Blood">New Blood</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_05_02">
+					<a id="a-sub-menu-item_02_05_02" href="/Halo:_Bad_Blood">Bad Blood</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_06">
+					<a id="a-sub-menu-item_02_06" href="/The_Ferrets_series">The Ferrets<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_06"><div class="sub-menu" id="sub-menu_02_06" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_06_01">
+					<a id="a-sub-menu-item_02_06_01" href="/Halo:_Last_Light">Last Light</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_06_02">
+					<a id="a-sub-menu-item_02_06_02" href="/Halo:_Retribution">Retribution</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_06_03">
+					<a id="a-sub-menu-item_02_06_03" href="/Halo:_Divine_Wind">Divine Wind</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_07">
+					<a id="a-sub-menu-item_02_07" href="/Rion_Forge_%26_Ace_Of_Spades_series">Rion Forge &amp; Ace of Spades<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_07"><div class="sub-menu" id="sub-menu_02_07" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_07_01">
+					<a id="a-sub-menu-item_02_07_01" href="/Halo:_Smoke_and_Shadow">Smoke and Shadow</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_07_02">
+					<a id="a-sub-menu-item_02_07_02" href="/Halo:_Renegades">Renegades</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_07_03">
+					<a id="a-sub-menu-item_02_07_03" href="/Halo:_Point_of_Light">Point of Light</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_08">
+					<a id="a-sub-menu-item_02_08" href="/A_Master_Chief_Story">A Master Chief Story<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_08"><div class="sub-menu" id="sub-menu_02_08" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_08_01">
+					<a id="a-sub-menu-item_02_08_01" href="/Halo:_Silent_Storm">Silent Storm</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_08_02">
+					<a id="a-sub-menu-item_02_08_02" href="/Halo:_Oblivion">Oblivion</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_08_03">
+					<a id="a-sub-menu-item_02_08_03" href="/Halo:_Shadows_of_Reach">Shadows of Reach<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_08_03"><div class="sub-menu" id="sub-menu_02_08_03" style="display:none;">
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_08_03_01">
+					<a id="a-sub-menu-item_02_08_03_01" href="/Sacrifice">Sacrifice</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_08_04">
+					<a id="a-sub-menu-item_02_08_04" href="/Halo:_Edge_of_Dawn">Edge of Dawn</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_09">
+					<a id="a-sub-menu-item_02_09" href="/Battle_Born:_A_Halo_Young_Adult_Novel_Series">Battle Born<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_09"><div class="sub-menu" id="sub-menu_02_09" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_09_01">
+					<a id="a-sub-menu-item_02_09_01" href="/Halo:_Battle_Born">Battle Born</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_09_02">
+					<a id="a-sub-menu-item_02_09_02" href="/Halo:_Meridian_Divide">Meridian Divide</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010">
+					<a id="a-sub-menu-item_02_010" href="/Halo_novels">Individual novels<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_010"><div class="sub-menu" id="sub-menu_02_010" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_010_01">
+					<a id="a-sub-menu-item_02_010_01" href="/Halo:_Contact_Harvest">Contact Harvest</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_02">
+					<a id="a-sub-menu-item_02_010_02" href="/Halo:_Broken_Circle">Broken Circle</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_03">
+					<a id="a-sub-menu-item_02_010_03" href="/Halo:_Hunters_in_the_Dark">Hunters in the Dark</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_04">
+					<a id="a-sub-menu-item_02_010_04" href="/Halo:_Legacy_of_Onyx">Legacy of Onyx</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_05">
+					<a id="a-sub-menu-item_02_010_05" href="/Halo:_The_Rubicon_Protocol">The Rubicon Protocol</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_06">
+					<a id="a-sub-menu-item_02_010_06" href="/Halo:_Outcasts">Outcasts</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_07">
+					<a id="a-sub-menu-item_02_010_07" href="/Halo:_Epitaph">Epitaph</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_02_010_08">
+					<a id="a-sub-menu-item_02_010_08" href="/Halo:_Empty_Throne">Empty Throne</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_010_09">
+					<a id="a-sub-menu-item_02_010_09" href="/Halo:_Parasite%27s_Wake">Parasite&#039;s Wake</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_02_011">
+					<a id="a-sub-menu-item_02_011" href="/Halo_novels">Individual novellas<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_011"><div class="sub-menu" id="sub-menu_02_011" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_011_01">
+					<a id="a-sub-menu-item_02_011_01" href="/Halo:_Saint%27s_Testimony">Saint&#039;s Testimony</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_011_02">
+					<a id="a-sub-menu-item_02_011_02" href="/Halo:_Shadow_of_Intent">Shadow of Intent</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_012">
+					<a id="a-sub-menu-item_02_012" href="/Halo_novels">Anthologies<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_02_012"><div class="sub-menu" id="sub-menu_02_012" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_02_012_01">
+					<a id="a-sub-menu-item_02_012_01" href="/Halo:_Evolutions">Evolutions</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_02_012_02">
+					<a id="a-sub-menu-item_02_012_02" href="/Halo:_Fractures">Fractures</a></div></div></div>
+</div></div></div>
+</div>
+				<div class="menu-item" id="menu-item_03">
+					<a id="a-menu-item_03" href="/Category:Products">Other media<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03"><div class="sub-menu" id="sub-menu_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_01">
+					<a id="a-sub-menu-item_03_01" href="/Category:Comics">Comics<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_01"><div class="sub-menu" id="sub-menu_03_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_01_01">
+					<a id="a-sub-menu-item_03_01_01" href="/Halo_Graphic_Novel">Graphic Novel</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_02">
+					<a id="a-sub-menu-item_03_01_02" href="/Halo_3:_The_Cradle_of_Life">The Cradle of Life</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_03">
+					<a id="a-sub-menu-item_03_01_03" href="/Halo:_Uprising">Uprising</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_04">
+					<a id="a-sub-menu-item_03_01_04" href="/Halo:_Helljumper">Helljumper</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_05">
+					<a id="a-sub-menu-item_03_01_05" href="/Halo:_Blood_Line">Blood Line</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_06">
+					<a id="a-sub-menu-item_03_01_06" href="/Halo:_Fall_of_Reach">Fall of Reach</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_07">
+					<a id="a-sub-menu-item_03_01_07" href="/Halo_Wars:_Genesis">Genesis</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_08">
+					<a id="a-sub-menu-item_03_01_08" href="/Halo:_Initiation">Initiation</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_09">
+					<a id="a-sub-menu-item_03_01_09" href="/Halo:_Escalation">Escalation</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_010">
+					<a id="a-sub-menu-item_03_01_010" href="/Halo:_Tales_from_Slipspace">Tales from Slipspace</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_011">
+					<a id="a-sub-menu-item_03_01_011" href="/Halo:_Rise_of_Atriox">Rise of Atriox</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_01_012">
+					<a id="a-sub-menu-item_03_01_012" href="/Halo:_Collateral_Damage">Collateral Damage</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_01_013">
+					<a id="a-sub-menu-item_03_01_013" href="/Halo:_Lone_Wolf">Lone Wolf</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_03_02">
+					<a id="a-sub-menu-item_03_02" href="/Category:Art_books">Art books<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_02"><div class="sub-menu" id="sub-menu_03_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_02_01">
+					<a id="a-sub-menu-item_03_02_01" href="/The_Art_of_Halo:_Creating_a_Virtual_World">The Art of Halo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_02_02">
+					<a id="a-sub-menu-item_03_02_02" href="/The_Art_of_Halo_3">The Art of Halo 3</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_02_03">
+					<a id="a-sub-menu-item_03_02_03" href="/Halo:_The_Great_Journey_-_The_Art_of_Building_Worlds">Halo: The Great Journey</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_02_04">
+					<a id="a-sub-menu-item_03_02_04" href="/Awakening:_The_Art_of_Halo_4">The Art of Halo 4</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_02_05">
+					<a id="a-sub-menu-item_03_02_05" href="/The_Art_of_Halo_5:_Guardians">The Art of Halo 5: Guardians</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_02_06">
+					<a id="a-sub-menu-item_03_02_06" href="/The_Art_of_Halo_Infinite">The Art of Halo Infinite</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03">
+					<a id="a-sub-menu-item_03_03" href="/Category:Reference_books">Reference books<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_03"><div class="sub-menu" id="sub-menu_03_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_03_01">
+					<a id="a-sub-menu-item_03_03_01" href="/Halo_Encyclopedia">Original encyclopedias<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_03_01"><div class="sub-menu" id="sub-menu_03_03_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_03_01_01">
+					<a id="a-sub-menu-item_03_03_01_01" href="/Halo_Encyclopedia_(2009_edition)">2009 edition</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_03_01_02">
+					<a id="a-sub-menu-item_03_03_01_02" href="/Halo_Encyclopedia_(2011_edition)">2011 edition</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03_02">
+					<a id="a-sub-menu-item_03_03_02" href="/Halo:_The_Essential_Visual_Guide">Halo: The Essential Visual Guide</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03_03">
+					<a id="a-sub-menu-item_03_03_03" href="/Halo_4:_The_Essential_Visual_Guide">Halo 4: The Essential Visual Guide</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03_04">
+					<a id="a-sub-menu-item_03_03_04" href="/Halo_Mythos:_A_Guide_to_the_Story_of_Halo">Halo Mythos</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03_05">
+					<a id="a-sub-menu-item_03_03_05" href="/Halo:_Warfleet_%E2%80%93_An_Illustrated_Guide_to_the_Spacecraft_of_Halo">Halo: Warfleet</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_03_06">
+					<a id="a-sub-menu-item_03_03_06" href="/Halo:_Official_Spartan_Field_Manual">Halo: Official Spartan Field Manual</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_03_07">
+					<a id="a-sub-menu-item_03_03_07" href="/Halo_Encyclopedia_(2022_edition)">Halo Encyclopedia (2022 edition)</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04">
+					<a id="a-sub-menu-item_03_04" href="/Category:Strategy_guides">Strategy guides<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_04"><div class="sub-menu" id="sub-menu_03_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_04_01">
+					<a id="a-sub-menu-item_03_04_01" href="/Halo:_Combat_Evolved:_Sybex_Official_Strategies_%26_Secrets">Halo: Combat Evolved</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_02">
+					<a id="a-sub-menu-item_03_04_02" href="/Halo_2:_The_Official_Strategy_Guide">Halo 2</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_03">
+					<a id="a-sub-menu-item_03_04_03" href="/Halo_3:_The_Official_Strategy_Guide">Halo 3</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_04">
+					<a id="a-sub-menu-item_03_04_04" href="/Halo_Wars:_Official_Strategy_Guide">Halo Wars</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_05">
+					<a id="a-sub-menu-item_03_04_05" href="/Halo_3:_ODST_Official_Strategy_Guide">Halo 3: ODST</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_06">
+					<a id="a-sub-menu-item_03_04_06" href="/Halo:_Reach_Official_Strategy_Guide">Halo: Reach</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_04_07">
+					<a id="a-sub-menu-item_03_04_07" href="/Halo_4:_Official_Game_Guide">Halo 4</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_04_08">
+					<a id="a-sub-menu-item_03_04_08" href="/Halo_5:_Guardians_Official_Game_Guide">Halo 5: Guardians</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_03_05">
+					<a id="a-sub-menu-item_03_05" href="/Category:Animated_films">Animation<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_05"><div class="sub-menu" id="sub-menu_03_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_05_01">
+					<a id="a-sub-menu-item_03_05_01" href="/Halo_Legends">Halo Legends</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_05_02">
+					<a id="a-sub-menu-item_03_05_02" href="/Halo:_The_Fall_of_Reach_-_The_Animated_Series">Halo: The Fall of Reach</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_06">
+					<a id="a-sub-menu-item_03_06" href="/Category:Live_action">Live action<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_03_06"><div class="sub-menu" id="sub-menu_03_06" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_03_06_01">
+					<a id="a-sub-menu-item_03_06_01" href="/Halo:_Landfall">Landfall</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_02">
+					<a id="a-sub-menu-item_03_06_02" href="/The_Life">The Life</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_03">
+					<a id="a-sub-menu-item_03_06_03" href="/Birth_of_a_Spartan">Birth of a Spartan</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_04">
+					<a id="a-sub-menu-item_03_06_04" href="/Remember_Reach">Remember Reach</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_05">
+					<a id="a-sub-menu-item_03_06_05" href="/Halo_4:_Forward_Unto_Dawn">Forward Unto Dawn</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_06">
+					<a id="a-sub-menu-item_03_06_06" href="/Halo_film">Halo movie</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_03_06_07">
+					<a id="a-sub-menu-item_03_06_07" href="/Halo:_Nightfall">Nightfall</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_03_06_08">
+					<a id="a-sub-menu-item_03_06_08" href="/Halo:_The_Television_Series">Halo TV series</a></div></div></div>
+</div></div></div>
+</div>
+				<div class="menu-item" id="menu-item_04">
+					<a id="a-menu-item_04" href="/Category:Gameplay">Gameplay<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_04"><div class="sub-menu" id="sub-menu_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_04_01">
+					<a id="a-sub-menu-item_04_01" href="/Halo_Waypoint">Waypoint</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_04_02">
+					<a id="a-sub-menu-item_04_02" href="/Equipment">Equipment</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_04_03">
+					<a id="a-sub-menu-item_04_03" href="/Weapons_(gameplay)">Weapons</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_04_04">
+					<a id="a-sub-menu-item_04_04" href="/Vehicles">Vehicles</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_04_05">
+					<a id="a-sub-menu-item_04_05" href="/Armor_customizations">Armor customizations</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_04_06">
+					<a id="a-sub-menu-item_04_06" href="/Category:Levels">Walkthroughs</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_04_07">
+					<a id="a-sub-menu-item_04_07" href="/Multiplayer">Multiplayer</a></div></div></div>
+</div>
+				<div class="menu-item border-fix" id="menu-item_05">
+					<a id="a-menu-item_05" href="/Halo_universe">The universe<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05"><div class="sub-menu" id="sub-menu_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01">
+					<a id="a-sub-menu-item_05_01" href="/Category:Characters">Characters<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01"><div class="sub-menu" id="sub-menu_05_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_01">
+					<a id="a-sub-menu-item_05_01_01" href="/Blue_Team">Blue Team<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01_01"><div class="sub-menu" id="sub-menu_05_01_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_01_01">
+					<a id="a-sub-menu-item_05_01_01_01" href="/John-117">John-117</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_01_02">
+					<a id="a-sub-menu-item_05_01_01_02" href="/Linda-058">Linda-058</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_01_03">
+					<a id="a-sub-menu-item_05_01_01_03" href="/Kelly-087">Kelly-087</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_01_04">
+					<a id="a-sub-menu-item_05_01_01_04" href="/Frederic-104">Frederic-104</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_02">
+					<a id="a-sub-menu-item_05_01_02" href="/Red_Team">Red Team<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01_02"><div class="sub-menu" id="sub-menu_05_01_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_02_01">
+					<a id="a-sub-menu-item_05_01_02_01" href="/Jerome-092">Jerome-092</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_02_02">
+					<a id="a-sub-menu-item_05_01_02_02" href="/Douglas-042">Douglas-042</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_02_03">
+					<a id="a-sub-menu-item_05_01_02_03" href="/Alice-130">Alice-130</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_03">
+					<a id="a-sub-menu-item_05_01_03" href="/Alpha-Nine">Alpha-Nine<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01_03"><div class="sub-menu" id="sub-menu_05_01_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_03_01">
+					<a id="a-sub-menu-item_05_01_03_01" href="/Rookie">Rookie</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_03_02">
+					<a id="a-sub-menu-item_05_01_03_02" href="/Michael_Crespo">Michael &quot;Mickey&quot; Crespo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_03_03">
+					<a id="a-sub-menu-item_05_01_03_03" href="/Taylor_Miles">Taylor &quot;Dutch&quot; Miles</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_03_04">
+					<a id="a-sub-menu-item_05_01_03_04" href="/Kojo_Agu">Kojo &quot;Romeo&quot; Agu</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04">
+					<a id="a-sub-menu-item_05_01_04" href="/NOBLE_Team">NOBLE Team<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01_04"><div class="sub-menu" id="sub-menu_05_01_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04_01">
+					<a id="a-sub-menu-item_05_01_04_01" href="/SPARTAN-B312">SPARTAN-B312</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04_02">
+					<a id="a-sub-menu-item_05_01_04_02" href="/Carter-A259">Carter-A259</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04_03">
+					<a id="a-sub-menu-item_05_01_04_03" href="/Jun-A266">Jun-A266</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04_04">
+					<a id="a-sub-menu-item_05_01_04_04" href="/Emile-A239">Emile-A239</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_04_05">
+					<a id="a-sub-menu-item_05_01_04_05" href="/Kat-B320">Kat-B320</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_04_06">
+					<a id="a-sub-menu-item_05_01_04_06" href="/Jorge-052">Jorge-052</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_05">
+					<a id="a-sub-menu-item_05_01_05" href="/Fireteam_Osiris">Fireteam Osiris<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_01_05"><div class="sub-menu" id="sub-menu_05_01_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_01_05_01">
+					<a id="a-sub-menu-item_05_01_05_01" href="/Jameson_Locke">Jameson Locke</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_05_02">
+					<a id="a-sub-menu-item_05_01_05_02" href="/Edward_Buck">Edward Buck</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_05_03">
+					<a id="a-sub-menu-item_05_01_05_03" href="/Olympia_Vale">Olympia Vale</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_05_04">
+					<a id="a-sub-menu-item_05_01_05_04" href="/Holly_Tanaka">Holly Tanaka</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_06">
+					<a id="a-sub-menu-item_05_01_06" href="/Catherine_Halsey">Catherine Halsey</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_07">
+					<a id="a-sub-menu-item_05_01_07" href="/Jacob_Keyes">Jacob Keyes</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_08">
+					<a id="a-sub-menu-item_05_01_08" href="/Cortana">Cortana</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_09">
+					<a id="a-sub-menu-item_05_01_09" href="/Avery_Johnson">Avery Johnson</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_010">
+					<a id="a-sub-menu-item_05_01_010" href="/343_Guilty_Spark">343 Guilty Spark</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_011">
+					<a id="a-sub-menu-item_05_01_011" href="/Thel_%27Vadam">Thel &#039;Vadam</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_012">
+					<a id="a-sub-menu-item_05_01_012" href="/Terrence_Hood">Terrence Hood</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_013">
+					<a id="a-sub-menu-item_05_01_013" href="/Miranda_Keyes">Miranda Keyes</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_014">
+					<a id="a-sub-menu-item_05_01_014" href="/Rtas_%27Vadum">Rtas &#039;Vadum</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_015">
+					<a id="a-sub-menu-item_05_01_015" href="/Gravemind">Gravemind</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_016">
+					<a id="a-sub-menu-item_05_01_016" href="/James_Cutter">James Cutter</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_017">
+					<a id="a-sub-menu-item_05_01_017" href="/John_Forge">John Forge</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_018">
+					<a id="a-sub-menu-item_05_01_018" href="/Ellen_Anders">Ellen Anders</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_019">
+					<a id="a-sub-menu-item_05_01_019" href="/Librarian">Librarian</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_020">
+					<a id="a-sub-menu-item_05_01_020" href="/IsoDidact">IsoDidact</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_021">
+					<a id="a-sub-menu-item_05_01_021" href="/Ur-Didact">Ur-Didact</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_022">
+					<a id="a-sub-menu-item_05_01_022" href="/Jul_%27Mdama">Jul &#039;Mdama</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_023">
+					<a id="a-sub-menu-item_05_01_023" href="/Thomas_Lasky">Thomas Lasky</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_024">
+					<a id="a-sub-menu-item_05_01_024" href="/Sarah_Palmer">Sarah Palmer</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_025">
+					<a id="a-sub-menu-item_05_01_025" href="/Roland">Roland</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_01_026">
+					<a id="a-sub-menu-item_05_01_026" href="/Atriox">Atriox</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_01_027">
+					<a id="a-sub-menu-item_05_01_027" href="/Isabel">Isabel</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02">
+					<a id="a-sub-menu-item_05_02" href="/Category:Locations">Locations<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_02"><div class="sub-menu" id="sub-menu_05_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_02_01">
+					<a id="a-sub-menu-item_05_02_01" href="/Earth">Earth</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_02">
+					<a id="a-sub-menu-item_05_02_02" href="/Reach">Reach</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_03">
+					<a id="a-sub-menu-item_05_02_03" href="/Harvest">Harvest</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_04">
+					<a id="a-sub-menu-item_05_02_04" href="/Sanghelios">Sanghelios</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_05">
+					<a id="a-sub-menu-item_05_02_05" href="/High_Charity">High Charity</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_06">
+					<a id="a-sub-menu-item_05_02_06" href="/Mombasa">Mombasa</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_07">
+					<a id="a-sub-menu-item_05_02_07" href="/Installation_04">Alpha Halo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_08">
+					<a id="a-sub-menu-item_05_02_08" href="/Installation_05">Delta Halo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_09">
+					<a id="a-sub-menu-item_05_02_09" href="/Installation_00">The Ark</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_02_010">
+					<a id="a-sub-menu-item_05_02_010" href="/Requiem">Requiem</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_02_011">
+					<a id="a-sub-menu-item_05_02_011" href="/Maethrillian">Maethrillian</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03">
+					<a id="a-sub-menu-item_05_03" href="/Category:Sapient_species">Species<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_03"><div class="sub-menu" id="sub-menu_05_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_03_01">
+					<a id="a-sub-menu-item_05_03_01" href="/Human">Human</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_02">
+					<a id="a-sub-menu-item_05_03_02" href="/San%27Shyuum">San&#039;Shyuum</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_03">
+					<a id="a-sub-menu-item_05_03_03" href="/Sangheili">Sangheili</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_04">
+					<a id="a-sub-menu-item_05_03_04" href="/Kig-Yar">Kig-Yar</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_05">
+					<a id="a-sub-menu-item_05_03_05" href="/Jiralhanae">Jiralhanae</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_06">
+					<a id="a-sub-menu-item_05_03_06" href="/Huragok">Huragok</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_07">
+					<a id="a-sub-menu-item_05_03_07" href="/Lekgolo">Lekgolo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_08">
+					<a id="a-sub-menu-item_05_03_08" href="/Yanme%27e">Yanme&#039;e</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_09">
+					<a id="a-sub-menu-item_05_03_09" href="/Unggoy">Unggoy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_03_010">
+					<a id="a-sub-menu-item_05_03_010" href="/Forerunner">Forerunner</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_03_011">
+					<a id="a-sub-menu-item_05_03_011" href="/Flood">Flood</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04">
+					<a id="a-sub-menu-item_05_04" href="/Category:Factions">Factions<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_04"><div class="sub-menu" id="sub-menu_05_04" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01">
+					<a id="a-sub-menu-item_05_04_01" href="/United_Nations_Space_Command">United Nations Space Command<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_04_01"><div class="sub-menu" id="sub-menu_05_04_01" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_01">
+					<a id="a-sub-menu-item_05_04_01_01" href="/UNSC_Army">UNSC Army</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_02">
+					<a id="a-sub-menu-item_05_04_01_02" href="/UNSC_Air_Force">UNSC Air Force</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_03">
+					<a id="a-sub-menu-item_05_04_01_03" href="/UNSC_Marine_Corps">UNSC Marine Corps</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_04">
+					<a id="a-sub-menu-item_05_04_01_04" href="/Orbital_Drop_Shock_Troopers">Orbital Drop Shock Troopers</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_05">
+					<a id="a-sub-menu-item_05_04_01_05" href="/UNSC_Navy">UNSC Navy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_01_06">
+					<a id="a-sub-menu-item_05_04_01_06" href="/Office_of_Naval_Intelligence">Office of Naval Intelligence</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_04_01_07">
+					<a id="a-sub-menu-item_05_04_01_07" href="/Spartan">SPARTAN programs</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_02">
+					<a id="a-sub-menu-item_05_04_02" href="/Covenant">Covenant<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_04_02"><div class="sub-menu" id="sub-menu_05_04_02" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_04_02_01">
+					<a id="a-sub-menu-item_05_04_02_01" href="/Covenant_military">Covenant military</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_02_02">
+					<a id="a-sub-menu-item_05_04_02_02" href="/Covenant_Honor_Guard">Covenant Honor Guard</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_04_02_03">
+					<a id="a-sub-menu-item_05_04_02_03" href="/High_Council">High Council</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_03">
+					<a id="a-sub-menu-item_05_04_03" href="/Insurrectionist">Insurrectionists<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_04_03"><div class="sub-menu" id="sub-menu_05_04_03" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_04_03_01">
+					<a id="a-sub-menu-item_05_04_03_01" href="/United_Rebel_Front">United Rebel Front</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_04_03_02">
+					<a id="a-sub-menu-item_05_04_03_02" href="/New_Colonial_Alliance">New Colonial Alliance</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_04">
+					<a id="a-sub-menu-item_05_04_04" href="/Unified_Earth_Government">Unified Earth Government</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_05">
+					<a id="a-sub-menu-item_05_04_05" href="/Swords_of_Sanghelios">Swords of Sanghelios</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_06">
+					<a id="a-sub-menu-item_05_04_06" href="/Jul_%27Mdama%27s_Covenant">Jul &#039;Mdama&#039;s Covenant</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_07">
+					<a id="a-sub-menu-item_05_04_07" href="/Ecumene">Forerunner ecumene</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_04_08">
+					<a id="a-sub-menu-item_05_04_08" href="/Ancient_humanity">Ancient humanity</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_04_09">
+					<a id="a-sub-menu-item_05_04_09" href="/Precursor">Precursors</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05">
+					<a id="a-sub-menu-item_05_05" href="/Category:Technology">Technology<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_05"><div class="sub-menu" id="sub-menu_05_05" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_05_01">
+					<a id="a-sub-menu-item_05_05_01" href="/Technological_Achievement_Tiers">Technological Achievement Tiers</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_02">
+					<a id="a-sub-menu-item_05_05_02" href="/Active_camouflage">Active camouflage</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_03">
+					<a id="a-sub-menu-item_05_05_03" href="/Artificial_intelligence">Artificial intelligence</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_04">
+					<a id="a-sub-menu-item_05_05_04" href="/Biological_augmentation">Biological augmentation</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_05">
+					<a id="a-sub-menu-item_05_05_05" href="/Cryonics">Cryonics</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_06">
+					<a id="a-sub-menu-item_05_05_06" href="/Energy_shielding">Energy shielding</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_07">
+					<a id="a-sub-menu-item_05_05_07" href="/Holography">Holography</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_08">
+					<a id="a-sub-menu-item_05_05_08" href="/Slipstream_space">Slipstream space</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_09">
+					<a id="a-sub-menu-item_05_05_09" href="/Powered_exoskeleton">Powered exoskeleton</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_010">
+					<a id="a-sub-menu-item_05_05_010" href="/Category:Propulsion">Propulsion</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_011">
+					<a id="a-sub-menu-item_05_05_011" href="/Category:Communications_technology">Communications</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_012">
+					<a id="a-sub-menu-item_05_05_012" href="/Category:Medicine">Medicine</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_05_013">
+					<a id="a-sub-menu-item_05_05_013" href="/Category:Vehicles">Vehicles</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_05_014">
+					<a id="a-sub-menu-item_05_05_014" href="/Category:Weapons">Weapons</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06">
+					<a id="a-sub-menu-item_05_06" href="/Category:Ships">Ships<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_06"><div class="sub-menu" id="sub-menu_05_06" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_06_01">
+					<a id="a-sub-menu-item_05_06_01" href="/UNSC_Pillar_of_Autumn">UNSC Pillar of Autumn</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_02">
+					<a id="a-sub-menu-item_05_06_02" href="/Truth_and_Reconciliation">Truth and Reconciliation</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_03">
+					<a id="a-sub-menu-item_05_06_03" href="/UNSC_In_Amber_Clad">UNSC In Amber Clad</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_04">
+					<a id="a-sub-menu-item_05_06_04" href="/UNSC_Forward_Unto_Dawn">UNSC Forward Unto Dawn</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_05">
+					<a id="a-sub-menu-item_05_06_05" href="/Shadow_of_Intent">Shadow of Intent</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_06">
+					<a id="a-sub-menu-item_05_06_06" href="/UNSC_Spirit_of_Fire">UNSC Spirit of Fire</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_07">
+					<a id="a-sub-menu-item_05_06_07" href="/UNSC_Infinity">UNSC Infinity</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_06_08">
+					<a id="a-sub-menu-item_05_06_08" href="/Mantle%27s_Approach">Mantle&#039;s Approach</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_06_09">
+					<a id="a-sub-menu-item_05_06_09" href="/Enduring_Conviction">Enduring Conviction</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_05_07">
+					<a id="a-sub-menu-item_05_07" href="/Category:Society_and_culture">Society and culture<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_07"><div class="sub-menu" id="sub-menu_05_07" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_07_01">
+					<a id="a-sub-menu-item_05_07_01" href="/Category:Languages">Languages</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_07_02">
+					<a id="a-sub-menu-item_05_07_02" href="/Religion">Religion</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_07_03">
+					<a id="a-sub-menu-item_05_07_03" href="/Mantle">Mantle</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_07_04">
+					<a id="a-sub-menu-item_05_07_04" href="/List_of_food_and_drinks">Food and drink</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_07_05">
+					<a id="a-sub-menu-item_05_07_05" href="/Category:Terms_and_phrases">Terms and phrases</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_08">
+					<a id="a-sub-menu-item_05_08" href="/Halopedia:Projects/Timeline/Eras">Timeline<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_05_08"><div class="sub-menu" id="sub-menu_05_08" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_05_08_01">
+					<a id="a-sub-menu-item_05_08_01" href="/Human-Forerunner_wars">Human-Forerunner wars</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_02">
+					<a id="a-sub-menu-item_05_08_02" href="/Forerunner-Flood_war">Forerunner-Flood war</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_03">
+					<a id="a-sub-menu-item_05_08_03" href="/Great_Purification">The Halos&#039; firing</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_04">
+					<a id="a-sub-menu-item_05_08_04" href="/War_of_Beginnings">War of Beginnings</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_05">
+					<a id="a-sub-menu-item_05_08_05" href="/Interplanetary_War">Interplanetary War</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_06">
+					<a id="a-sub-menu-item_05_08_06" href="/Insurrection">Insurrection</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_05_08_07">
+					<a id="a-sub-menu-item_05_08_07" href="/Human-Covenant_War">Human-Covenant War</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_05_08_08">
+					<a id="a-sub-menu-item_05_08_08" href="/Post-Covenant_War_conflicts">Post-Covenant War conflicts</a></div></div></div>
+</div></div></div>
+</div></div>
+		<div id="other-links" style="border-radius:0;padding-top:1px"><div class="cleared"></div></div>
+			<div id="navigation-title" style="border-radius:0;line-height:27px">Community</div>
+					<div class="sub-menu-container" id="menu">
+				<div class="menu-item" style="background-color: rgb(255, 255, 255);">
+					<a id="discord-button" target="_blank" href="https://discord.gg/W3HK45M" title="Join our Discord server">Discord</a> <a href="https://www.halopedia.org/Halopedia:Discord_server" title="About Discord"><small>Info</small></a><div id="social-icons" style="float:right;margin:-3px 4px 0 0"><a target="_blank" href="https://bsky.app/profile/halopedia.org"><img src="https://wiki.gallery/images/icons/bluesky.svg" title="Bluesky" width="19px"/></a><a target="_blank" href="https://www.instagram.com/halopediawiki/"><img src="https://wiki.gallery/images/icons/instagram.svg" title="Instagram" width="19px"/></a><a target="_blank" href="https://x.com/Halopedia"><img src="https://wiki.gallery/images/icons/x.svg" title="X" width="19px"/></a><a href="https://www.halopedia.org/Halopedia:Social_media" title="More social media">...</a></div>
+				</div>
+			</div>
+					<div class="sub-menu-container" id="menu">
+				<div class="menu-item" id="menu-item_1001">
+					<a id="a-menu-item_1001" href="/Halopedia:Community">Halopedia<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1001"><div class="sub-menu" id="sub-menu_1001" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1001_1001">
+					<a id="a-sub-menu-item_1001_1001" href="/Special:WikiForum">Forums</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1001_1002">
+					<a id="a-sub-menu-item_1001_1002" href="/Archive:Main">Halopedia Archive</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1001_1003">
+					<a id="a-sub-menu-item_1001_1003" href="/News:Main">Halo News Network</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1001_1004">
+					<a id="a-sub-menu-item_1001_1004" href="/Halopedia:Projects/Improvement">Article improvement</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1001_1005">
+					<a id="a-sub-menu-item_1001_1005" href="/Halopedia:Featured/Article">Featured articles</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1001_1006">
+					<a id="a-sub-menu-item_1001_1006" href="/Halopedia:Staff">Halopedia staff</a></div></div></div>
+</div>
+				<div class="menu-item" id="menu-item_1002">
+					<a id="a-menu-item_1002" href="/Help:Contents">Wiki help<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1002"><div class="sub-menu" id="sub-menu_1002" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001">
+					<a id="a-sub-menu-item_1002_1001" href="/Category:Policies">Policies<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1002_1001"><div class="sub-menu" id="sub-menu_1002_1001" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1001">
+					<a id="a-sub-menu-item_1002_1001_1001" href="/Halopedia:Manual_of_Style">Manual of Style</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1002">
+					<a id="a-sub-menu-item_1002_1001_1002" href="/Halopedia:Blocking_policy">Blocking policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1003">
+					<a id="a-sub-menu-item_1002_1001_1003" href="/Halopedia:Canon_policy">Canon policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1004">
+					<a id="a-sub-menu-item_1002_1001_1004" href="/Halopedia:Layout_guide">Layout guide</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1005">
+					<a id="a-sub-menu-item_1002_1001_1005" href="/Halopedia:Media_policy">Media policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1006">
+					<a id="a-sub-menu-item_1002_1001_1006" href="/Halopedia:Notability_policy">Notability policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1007">
+					<a id="a-sub-menu-item_1002_1001_1007" href="/Halopedia:Personal_image_policy">Personal image policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1008">
+					<a id="a-sub-menu-item_1002_1001_1008" href="/Halopedia:Protected_page_policy">Protected page policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_1009">
+					<a id="a-sub-menu-item_1002_1001_1009" href="/Halopedia:Signature_policy">Signature policy</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1001_10010">
+					<a id="a-sub-menu-item_1002_1001_10010" href="/Halopedia:Spoiler_policy">Spoiler policy</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1002_1001_10011">
+					<a id="a-sub-menu-item_1002_1001_10011" href="/Halopedia:Voting_policy">Voting policy</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002">
+					<a id="a-sub-menu-item_1002_1002" href="/Category:Help">Help pages<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1002_1002"><div class="sub-menu" id="sub-menu_1002_1002" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1001">
+					<a id="a-sub-menu-item_1002_1002_1001" href="/Help:Disambiguation">Disambiguation</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1002">
+					<a id="a-sub-menu-item_1002_1002_1002" href="/Help:Editing">Editing </a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1003">
+					<a id="a-sub-menu-item_1002_1002_1003" href="/Help:Images">Images</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1004">
+					<a id="a-sub-menu-item_1002_1002_1004" href="/Help:Links">Links</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1005">
+					<a id="a-sub-menu-item_1002_1002_1005" href="/Help:References">References</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1006">
+					<a id="a-sub-menu-item_1002_1002_1006" href="/Help:Signatures">Signatures</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1007">
+					<a id="a-sub-menu-item_1002_1002_1007" href="/Help:Tables">Tables</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1008">
+					<a id="a-sub-menu-item_1002_1002_1008" href="/Help:Templates">Templates</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1002_1009">
+					<a id="a-sub-menu-item_1002_1002_1009" href="/Help:Videos">Videos</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1002_1002_10010">
+					<a id="a-sub-menu-item_1002_1002_10010" href="/Help:Walkthroughs">Walkthroughs</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_1002_1003">
+					<a id="a-sub-menu-item_1002_1003" href="/Halopedia:General_disclaimer">General disclaimer</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1002_1004">
+					<a id="a-sub-menu-item_1002_1004" href="/Halopedia:What_Halopedia_is">What Halopedia is</a></div></div></div>
+</div>
+				<div class="menu-item" id="menu-item_1003">
+					<a id="a-menu-item_1003" href="/Halopedia:Related_sites_and_affiliates">Related sites<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003"><div class="sub-menu" id="sub-menu_1003" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1001">
+					<a id="a-sub-menu-item_1003_1001" href="/Halopedia:Related_sites_and_affiliates">Affiliates<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003_1001"><div class="sub-menu" id="sub-menu_1003_1001" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1001_1001">
+					<a id="a-sub-menu-item_1003_1001_1001" href="https://www.marathonwiki.com/">CyberAcme</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1001_1002">
+					<a id="a-sub-menu-item_1003_1001_1002" href="https://www.destinypedia.com/">Destinypedia</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1001_1003">
+					<a id="a-sub-menu-item_1003_1001_1003" href="https://www.youtube.com/@HaloCanon">Halo Canon</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1001_1004">
+					<a id="a-sub-menu-item_1003_1001_1004" href="https://www.niwanetwork.org">NIWA</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002">
+					<a id="a-sub-menu-item_1003_1002" href="/Halopedia:Related_sites_and_affiliates">Community<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003_1002"><div class="sub-menu" id="sub-menu_1003_1002" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1001">
+					<a id="a-sub-menu-item_1003_1002_1001" href="https://halo.bungie.org">halo.bungie.org</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1002">
+					<a id="a-sub-menu-item_1003_1002_1002" href="https://www.readyuplive.com">Ready Up Live</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1003">
+					<a id="a-sub-menu-item_1003_1002_1003" href="http://www.forwarduntodawn.com">Forward Unto Dawn</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1004">
+					<a id="a-sub-menu-item_1003_1002_1004" href="https://www.reddit.com/r/halo">/r/halo</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1005">
+					<a id="a-sub-menu-item_1003_1002_1005" href="https://www.reddit.com/r/HaloStory">/r/HaloStory</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1006">
+					<a id="a-sub-menu-item_1003_1002_1006" href="https://www.forgehub.com">ForgeHub</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1007">
+					<a id="a-sub-menu-item_1003_1002_1007" href="http://haloterms.bungie.org">Terminal Hub</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1002_1008">
+					<a id="a-sub-menu-item_1003_1002_1008" href="https://roosterteeth.com">Rooster Teeth</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1002_1009">
+					<a id="a-sub-menu-item_1003_1002_1009" href="https://405th.com">405th</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1003">
+					<a id="a-sub-menu-item_1003_1003" href="/Halopedia:Related_sites_and_affiliates">Podcasts<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003_1003"><div class="sub-menu" id="sub-menu_1003_1003" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1003_1001">
+					<a id="a-sub-menu-item_1003_1003_1001" href="https://www.podtacular.com">Podtacular</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1003_1002">
+					<a id="a-sub-menu-item_1003_1003_1002" href="https://www.halopodcastevolved.com/podcast-evolved">Podcast Evolved</a></div></div></div>
+</div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1004">
+					<a id="a-sub-menu-item_1003_1004" href="/Halopedia:Related_sites_and_affiliates">Wikis<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003_1004"><div class="sub-menu" id="sub-menu_1003_1004" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001">
+					<a id="a-sub-menu-item_1003_1004_1001" href="/Halopedia:Related_sites_and_affiliates">International<img src="https://wiki.gallery/1_43/skins/Nimbus/nimbus/right_arrow.gif" alt="" class="sub-menu-button" /></a><div class="sub-menu-container" id="menu_1003_1004_1001"><div class="sub-menu" id="sub-menu_1003_1004_1001" style="display:none;">
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1001">
+					<a id="a-sub-menu-item_1003_1004_1001_1001" href="https://halo.fandom.com/de/wiki/">Deutsch (German)</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1002">
+					<a id="a-sub-menu-item_1003_1004_1001_1002" href="https://halo.fandom.com/el/wiki/">Ελληνικά (Greek)</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1003">
+					<a id="a-sub-menu-item_1003_1004_1001_1003" href="https://halo.fandom.com/it/wiki/">Italiano (Italian)</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1004">
+					<a id="a-sub-menu-item_1003_1004_1001_1004" href="https://halo.fandom.com/ko/wiki/">한국어 (Korean)</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1005">
+					<a id="a-sub-menu-item_1003_1004_1001_1005" href="https://halo.fandom.com/pl/wiki/">Polski (Polish)</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1001_1006">
+					<a id="a-sub-menu-item_1003_1004_1001_1006" href="https://halo.fandom.com/ru/wiki/">Русские (Russian)</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1004_1001_1007">
+					<a id="a-sub-menu-item_1003_1004_1001_1007" href="https://halo.fandom.com/es/wiki/">Español (Spanish)</a></div></div></div>
+</div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1002">
+					<a id="a-sub-menu-item_1003_1004_1002" href="https://halofanon.fandom.com/wiki/">Halo Fanon</a></div>
+				<div class="sub-menu-item" id="sub-menu-item_1003_1004_1003">
+					<a id="a-sub-menu-item_1003_1004_1003" href="https://wiki.halo.fr/">Halo.fr</a></div>
+				<div class="sub-menu-item border-fix" id="sub-menu-item_1003_1004_1004">
+					<a id="a-sub-menu-item_1003_1004_1004" href="https://rvb.fandom.com/wiki/">Red vs. Blue</a></div></div></div>
+</div></div></div>
+</div>
+				<div class="menu-item border-fix" id="menu-item_1004">
+					<a id="a-menu-item_1004" href="https://www.halowaypoint.com">Halo Waypoint</a></div></div>
+			<div id="other-links-container">
+				<div id="other-links">
+					<a href="https://www.halopedia.org/Special:RecentChanges">Recent changes</a>
+					<a href="https://www.halopedia.org/Special:Random">Random page</a>
+					<div class="cleared"></div>
+										<a href="https://www.halopedia.org/Special:SpecialPages">Special pages</a>
+											<a href="javascript:print();">Printable version</a>
+										<div class="cleared"></div>
+				</div>
+			</div>
+		</div>
+			<div class="bottom-left-nav">				<div class="bottom-left-nav-container">
+											<h2>Did you know?</h2>
+					<ul><li>...that <b><a href="/Maria-062" title="Maria-062">Maria-062</a></b>, <b><a href="/Randall_Aiken" title="Randall Aiken">Randall-037</a></b>, and <b><a href="/Ralph-103" title="Ralph-103">Ralph-103</a></b> are the only known <a href="/SPARTAN-II_program" title="SPARTAN-II program">SPARTAN-IIs</a> to retire?</li>
+<li>...that <b><a href="/Luna" title="Luna">Luna</a></b>, Earth's <a href="/Moon" class="mw-redirect" title="Moon">moon</a>, has been colonized?</li>
+<li>...that <b><a href="/Joint_Occupation_Zone" title="Joint Occupation Zone">Joint Occupation Zones</a></b> are areas under cooperative <a href="/UNSC" class="mw-redirect" title="UNSC">UNSC</a> and <a href="/Sangheili" title="Sangheili">Sangheili</a> control?</li>
+<li>...that <a href="/Slipstream_space" title="Slipstream space">slipstream space</a> translations for a <a href="/Phoenix-class_colony_ship" title="Phoenix-class colony ship"><i>Phoenix</i>-class colony ship</a> require 4.3 quadrillion (4.3 * 10<sup>15</sup>) calculations of the quantum field per second?</li>
+<li>...that <b><a href="/WETA_Workshop" title="WETA Workshop">WETA Workshop</a></b>, a company in New Zealand, actually made a to-scale <a href="/M12_Warthog" title="M12 Warthog">Warthog</a> and two <a href="/M274_Mongoose" title="M274 Mongoose">Mongooses</a>?</li></ul>				</div>
+			</div>
+	</aside>
+	<div id="body-container">
+		<div id="action-bar" class="noprint"><div id="article-tabs"><a href="/" class="mw-skin-nimbus-actiontab tab-on" id="ca-nstab-main" rel="nofollow">
+				<span>Main page</span>
+			</a><a href="/Talk:Main_Page" class="mw-skin-nimbus-actiontab tab-off" id="ca-talk" rel="nofollow">
+				<span>Discussion</span>
+			</a><a href="/Main_Page?action=edit" class="mw-skin-nimbus-actiontab tab-off" id="ca-viewsource" rel="nofollow">
+				<span>View source</span>
+			</a><a href="/Main_Page?action=history" class="mw-skin-nimbus-actiontab tab-off" id="ca-history" rel="nofollow">
+				<span>History</span>
+			</a><div class="cleared"></div>
+			</div>
+		</div>
+		<div id="article">
+			<main id="content" class="mw-body-content">
+				<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Edismiss\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"sitenotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cp\u003E\u003Cspan style=\"color:orange;font-size:125%;font-weight:bold\"\u003ENotice\u003C/span\u003E — \u003Ci\u003E\u003Ca href=\"/Halo:_Campaign_Evolved\" title=\"Halo: Campaign Evolved\"\u003EHalo: Campaign Evolved\u003C/a\u003E\u003C/i\u003E has been released. Halopedia contains spoilers from the \u003Ca href=\"/Operation:_METEORITE\" title=\"Operation: METEORITE\"\u003Enew levels\u003C/a\u003E, \u003Ca href=\"/CEV:Terminals\" title=\"CEV:Terminals\"\u003ETerminals\u003C/a\u003E, and \u003Ca href=\"/Halo:_Hungry_Buzzards\" title=\"Halo: Hungry Buzzards\"\u003Eshort story\u003C/a\u003E.\n\u003C/p\u003E\n\u003Cdiv id=\"more-news\" style=\"text-align:center;margin-top:2.5px\"\u003E\u003Cb\u003E\u003Ca href=\"/Special:RecentChanges\" title=\"Special:RecentChanges\"\u003EMore editor notices →\u003C/a\u003E\u003C/b\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>				<div id="article-text" class="clearfix">
+					<div class="mw-indicators">
+</div>
+					<h1 class="pagetitle"><span class="mw-page-title-main">Main Page</span></h1>					<p class='subtitle'>From Halopedia, the Halo wiki</p>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+															<!-- start content -->
+					<div id="mw-content-text" class="mw-body-content"><div id="adBanner" class="adWrapper noprint" style="margin:0 0 12.5px"><!-- Tag ID: halopedia_leaderboard_atf -->
+<div align="center" data-freestar-ad="__320x100 __970x90" id="halopedia_leaderboard_atf">
+  <script data-cfasync="false" type="text/javascript">
+    freestar.config.enabled_slots.push({ placementName: "halopedia_leaderboard_atf", slotId: "halopedia_leaderboard_atf" });
+  </script>
+</div></div><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><table id="mp-container" style="width:97%;margin:0 auto">
+<tbody><tr>
+<td><div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;padding:7px 5px;"><div class="floatleft"><a href="https://bsky.app/profile/halopedia.org" title="Follow us on Bluesky" target="_blank" rel="nofollow"><img alt="Follow us on Bluesky" src="https://halo.wiki.gallery/images/5/5e/Bluesky_icon.svg" decoding="async" loading="eager" width="30" height="30" class="nophone" data-file-width="512" data-file-height="512" /></a></div> <div class="floatright"><a href="https://x.com/Halopedia" title="Follow us on X" target="_blank" rel="nofollow"><img alt="Follow us on X" src="https://halo.wiki.gallery/images/c/cc/X_icon.svg" decoding="async" loading="eager" width="30" height="30" class="nophone" data-file-width="512" data-file-height="512" /></a></div> <img alt="MyHalopedia.png" src="https://halo.wiki.gallery/images/thumb/4/40/MyHalopedia.png/360px-MyHalopedia.png" decoding="async" loading="eager" width="360" height="31" srcset="https://halo.wiki.gallery/images/thumb/4/40/MyHalopedia.png/540px-MyHalopedia.png 1.5x, https://halo.wiki.gallery/images/thumb/4/40/MyHalopedia.png/720px-MyHalopedia.png 2x" data-file-width="3840" data-file-height="334" /></div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;text-align:center;">
+Search 17,264 articles:<form name="bodySearch0.768301788420" id="bodySearch0.768301788420" class="bodySearch mw-inputbox-form-inline" action="/Special:Search"><div class="bodySearchWrap" style=""><div class="cdx-text-input"><input name="search" class="mw-searchInput cdx-text-input__input" size="42" id="bodySearchInput0.768301788420" dir="ltr" placeholder="Search this wiki" /></div>&#160;<input type="submit" name="go" value="Search" class="cdx-button" /></div></form>
+<p>Welcome to <b>Halopedia</b>, the <i><b><a href="/Halo_universe" title="Halo universe">Halo</a></b></i> wiki and definitive source for <i>Halo</i> information that <a href="/Help:Editing" title="Help:Editing">anyone can edit</a>. This encyclopedia is edited and maintained by a <a href="/Halopedia:Halopedians" title="Halopedia:Halopedians">dedicated group</a> of <i>Halo</i> fans! We are currently working on 17,264 articles created since November 4, 2004, and you can help us! <a href="/Special:CreateAccount" title="Special:CreateAccount">Sign up</a> or login to receive exclusive features and customization. Check out the <a href="/Special:NewPages" title="Special:NewPages">new pages</a>, <a href="/Special:RecentChanges" title="Special:RecentChanges">recent changes</a>, and <a href="/Special:Statistics" title="Special:Statistics">statistics</a>. Don't know what <i>Halo</i> is? Then read <a href="/Halo_universe" title="Halo universe">our summary here</a>! If you've never been here before, you can find out more by checking out the <a href="/Halopedia:About" title="Halopedia:About">about</a> page. You can also find us on <a href="/Halopedia:Social_media" title="Halopedia:Social media">social media</a> or our <a href="/Halopedia:Discord_server" title="Halopedia:Discord server">Discord server</a>.
+</p>
+<hr />
+<b><a href="/Halopedia:Administrators" title="Halopedia:Administrators">Administrators</a> • <a href="/Halopedia:Layout_guide" title="Halopedia:Layout guide">Layout guide</a> • <a href="/Halopedia:Manual_of_Style" title="Halopedia:Manual of Style">Manual of Style</a> • <a href="/Halopedia:Projects" title="Halopedia:Projects">Projects</a> • <a href="/Category:Policies" title="Category:Policies">Policies</a></b></div>
+</div>
+</td></tr></tbody></table>
+<table id="mp-container" class="responsive-col" style="width:97%;margin:0 auto">
+<tbody><tr>
+<td style="padding-right:25px" valign="top">
+<div class="containerTem" style="margin:0 auto 16px; width:auto; background:#555; border:2px solid #333333; border-radius:6px; text-align:left;">
+<div class="containerTitle" style="background:transparent; padding:2px 6px; margin-bottom:2px; border-radius:6px 6px 0 0; text-align:center; line-height:20px; color:#FFF; font-weight:bold;">NAVIGATION</div><div class="containerContent">
+<div style="display:flow-root">
+<table class="col-begin mp-navigation" style="width:100%; background:none; border-collapse:collapse">
+<tbody><tr>
+<td width="33.33%" valign="top" style="padding:0">
+<div style="background:#555; --darkbg:#444; border:1px solid #555; border-top:0; border-radius:6px;">
+<div style="background:#FAFAFA; --darkbg:#333;"><div class="center"><div class="floatnone"><img alt="HaloArray.png" src="https://halo.wiki.gallery/images/thumb/8/87/HaloArray.png/92px-HaloArray.png" decoding="async" loading="eager" width="92" height="100" class="nophone" srcset="https://halo.wiki.gallery/images/thumb/8/87/HaloArray.png/138px-HaloArray.png 1.5x, https://halo.wiki.gallery/images/thumb/8/87/HaloArray.png/184px-HaloArray.png 2x" data-file-width="230" data-file-height="250" /></div></div>
+<div style="background:#555; --darkbg:#444; text-align:center; color:#FFF; font-weight:bold;"><i>Halo</i> universe</div><div style="padding: 2px 4px; text-align:left;">
+<ul><li><a href="/Halo_universe" title="Halo universe"><i>Halo</i> universe</a></li>
+<li><a href="/Category:Characters" title="Category:Characters">Characters</a></li>
+<li><a href="/Category:Factions" title="Category:Factions">Factions</a></li>
+<li><a href="/Category:Locations" title="Category:Locations">Locations</a></li>
+<li><a href="/Category:Sapient_species" title="Category:Sapient species">Species</a></li>
+<li><a href="/Category:Weapons" title="Category:Weapons">Weapons</a></li>
+<li><a href="/Category:Vehicles" title="Category:Vehicles">Vehicles</a></li>
+<li><a href="/Category:Technology" title="Category:Technology">Technology</a></li></ul>
+</div></div></div>
+</td>
+<td width="33.33%" valign="top" style="padding:0">
+<div style="background:#555; --darkbg:#444; border:1px solid #555; border-top:0; border-radius:6px;">
+<div style="background:#FAFAFA; --darkbg:#333;"><div class="center"><div class="floatnone"><img alt="Legendary2.png" src="https://halo.wiki.gallery/images/thumb/c/c4/Legendary2.png/92px-Legendary2.png" decoding="async" loading="eager" width="92" height="100" class="nophone" srcset="https://halo.wiki.gallery/images/thumb/c/c4/Legendary2.png/138px-Legendary2.png 1.5x, https://halo.wiki.gallery/images/thumb/c/c4/Legendary2.png/185px-Legendary2.png 2x" data-file-width="203" data-file-height="220" /></div></div>
+<div style="background:#555; --darkbg:#444; text-align:center; color:#FFF; font-weight:bold;">Gameplay</div><div style="padding: 2px 4px; text-align:left;">
+<ul><li><a href="/Category:Levels" title="Category:Levels">Campaign levels</a></li>
+<li><a href="/Category:Multiplayer_maps" title="Category:Multiplayer maps">Multiplayer maps</a></li>
+<li><a href="/Category:Gameplay_guides" title="Category:Gameplay guides">Gameplay guides</a></li>
+<li><a href="/Category:Updates_and_patches" title="Category:Updates and patches">Title updates</a></li>
+<li><a href="/Category:Multiplayer_map_packs" title="Category:Multiplayer map packs">DLC</a></li>
+<li><a href="/Category:Achievements" title="Category:Achievements">Achievements</a></li>
+<li><a href="/Category:Easter_eggs" title="Category:Easter eggs">Easter eggs</a> | <a href="/Category:Glitches" title="Category:Glitches">Glitches</a></li>
+<li><a href="/Category:Deleted_material" title="Category:Deleted material">Deleted content</a></li></ul>
+</div></div></div>
+</td>
+<td width="33.33%" valign="top" style="padding:0">
+<div style="background:#555; --darkbg:#444; border:1px solid #555; border-top:0; border-radius:6px;">
+<div style="background:#FAFAFA; --darkbg:#333;"><div class="center"><div class="floatnone"><img alt="One One Se7en Main.png" src="https://halo.wiki.gallery/images/thumb/a/aa/One_One_Se7en_Main.png/99px-One_One_Se7en_Main.png" decoding="async" loading="lazy" width="99" height="100" class="nophone" srcset="https://halo.wiki.gallery/images/a/aa/One_One_Se7en_Main.png 1.5x" data-file-width="109" data-file-height="110" /></div></div>
+<div style="background:#555; --darkbg:#444; text-align:center; color:#FFF; font-weight:bold;">Real world</div><div style="padding: 2px 4px; text-align:left;">
+<ul><li><a href="/Category:Games" title="Category:Games">Games</a></li>
+<li><a href="/Category:Books" title="Category:Books">Novels and comics</a></li>
+<li><a href="/Category:Cinematics" title="Category:Cinematics">Cinematics</a></li>
+<li><a href="/Category:Halo_music" title="Category:Halo music">Soundtracks</a></li>
+<li><a href="/Category:Promotional_material" title="Category:Promotional material">Promotional material</a></li>
+<li><a href="/Category:Action_figures" title="Category:Action figures">Action figures</a></li>
+<li><a href="/I_love_bees" title="I love bees">i love bees</a> | <a href="/Category:Axon_audio_files" title="Category:Axon audio files">Axons</a></li>
+<li><a href="/Category:Fan_made" title="Category:Fan made">Fan-made works</a></li></ul>
+</div></div></div>
+</td></tr></tbody></table>
+</div>
+<div style="background:#FAFAFA; --darkbg:#333; border-radius:0 0 6px 6px; padding:1px 5px; margin:2px 4px;">
+<ul><li>The <b><a href="/Halopedia:Community" title="Halopedia:Community">community portal</a></b> is the central place to find out what's happening on Halopedia. Learn what tasks need to be done, what groups can be joined, and get or post news about recent events or current activities.</li>
+<li>Questions? Check out our <b><a href="/Halopedia:FAQ" title="Halopedia:FAQ">FAQ</a></b>, or ask your own questions at the <b><a href="/Talk:Main_Page" title="Talk:Main Page">main page discussion</a></b> or at the <b><a href="/Halopedia_talk:Community" title="Halopedia talk:Community">community portal discussion</a></b>.</li>
+<li>Want to help but don't know where to start? Head on over to the <b><a href="/Halopedia:Projects/Improvement" title="Halopedia:Projects/Improvement">Article Improvement Drive</a></b> page for a list of articles in need of improvement.</li>
+<li>Get to know Halopedia's <b><a href="/Halopedia:Administrators" title="Halopedia:Administrators">administrators</a></b>!</li>
+<li>Check out the <b><a href="/Special:WikiForum" title="Special:WikiForum">forums</a></b> to see what the community is working on, to give feedback or just to say <i>"hi"</i>, and chat with the Halopedia community on our <b><a href="/Halopedia:Discord_server" title="Halopedia:Discord server">Discord server</a></b>.</li></ul>
+</div></div></div>
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;">News</div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;">
+<div class="center-template" style="text-align:center; margin-bottom:0.5em; font-size:14px; font-weight:bold;"><a href="/News:Main" title="News:Main">Halopedia news</a></div>
+<ul><li><b>November 4, 2019</b>: <a href="/News:Halo_News_Network_Issue_6_-_Believing_in_us_for_15_years" title="News:Halo News Network Issue 6 - Believing in us for 15 years">Halo News Network Issue 6 - Believing in us for 15 years</a></li>
+<li><b>December 6, 2021</b>: <a href="/News:Halopedia_Reviews:_Divine_Wind" title="News:Halopedia Reviews: Divine Wind"><i>Halo: Divine Wind</i> - Halopedia Review</a></li>
+<li><b>October 3, 2022</b>: <a href="/News:Halopedia_Reviews:_The_Rubicon_Protocol" title="News:Halopedia Reviews: The Rubicon Protocol"><i>Halo: The Rubicon Protocol</i> - Halopedia Review</a></li>
+<li><b>September 8, 2023</b>: <a href="/News:Halopedia_Reviews:_Outcasts" title="News:Halopedia Reviews: Outcasts"><i>Halo: Outcasts</i> - Halopedia Review</a></li>
+<li><b>May 1, 2024</b>: <a href="/News:Halopedia_Reviews:_Epitaph" title="News:Halopedia Reviews: Epitaph"><i>Halo: Epitaph</i> - Halopedia Review</a></li></ul>
+<hr />
+<div class="center-template" style="text-align:center; margin-bottom:0.5em; font-size:14px; font-weight:bold;">Official news</div>
+<ul><li><i><b><a href="/Halo:_Campaign_Evolved" title="Halo: Campaign Evolved">Halo: Campaign Evolved</a></b></i>, a complete remake of <i><a href="/Halo:_Combat_Evolved" title="Halo: Combat Evolved">Halo: Combat Evolved</a></i>, releases on July 28<sup>th</sup>! It includes remade gameplay, art, re-recorded voice acting and music, and new weapons, vehicles, enemies, skulls, and player customization never before seen in the original game's campaign. Additionally, the game features three entirely new prequel missions set during <a href="/Operation:_METEORITE" title="Operation: METEORITE">Operation: METEORITE</a> a year before the events of <i>Combat Evolved</i>, following <a href="/John-117" title="John-117">John-117</a> and <a href="/Avery_Johnson" title="Avery Johnson">Avery Johnson</a> on a mission to infiltrate a <a href="/Covenant" title="Covenant">Covenant</a> <a href="/Triumph_of_Tolerance" title="Triumph of Tolerance">starship</a> in search of information on the aliens' <a href="/High_Charity" title="High Charity">homeworld</a>. Read more <span class="plainlinks"><a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/halo-campaign-evolved"><b>HERE</b></a></span>!</li></ul>
+<ul><li>The first volume of <i><b><a href="/Halo:_Waypoint_Chronicles" title="Halo: Waypoint Chronicles">Halo: Waypoint Chronicles</a></b></i>, a <i>Halo</i> short story anthology series, released on May 26<sup>th</sup>! It compiles all 24 of the <a href="/Halo_Waypoint_Chronicle" title="Halo Waypoint Chronicle">Halo Waypoint Chronicles</a> previously only viewable online, along with <a href="/Halo_Infinite_Story_%26_Intel" title="Halo Infinite Story &amp; Intel"><i>Halo Infinite</i> Intel Drops</a>, <a href="/Armory_Infinitum" title="Armory Infinitum">Armory Infinitum</a> entries, <a href="/Story_Shard" title="Story Shard">Story Shards</a>, and ten entirely new stories into a single compendium!</li></ul>
+<ul><li><b><a href="/Halo_Fest" title="Halo Fest">Halo Fest</a></b> returns December 11<sup>th</sup> through 13<sup>th</sup>, in celebration of the <i>Halo</i> franchise's 25<sup>th</sup> anniversary! Beginning on the first day at <a href="https://en.wikipedia.org/wiki/Benaroya_Hall" class="extiw" title="wikipedia:Benaroya Hall">Benaroya Hall</a> with two concerts played by the <a href="https://en.wikipedia.org/wiki/Seattle_Symphony" class="extiw" title="wikipedia:Seattle Symphony">Seattle Symphony</a> featuring music from the <i>Halo</i> soundtracks, the second and third days will consist of a convention hosted at the <a href="https://en.wikipedia.org/wiki/Seattle_Convention_Center" class="extiw" title="wikipedia:Seattle Convention Center">Seattle Convention Center</a>. Read more <span class="plainlinks"><a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/halofest"><b>HERE</b></a></span>!</li></ul>
+<ul><li><i><a href="/Halo_Infinite" title="Halo Infinite">Halo Infinite</a></i>'s <b><a href="/Infinite_(Operation)" title="Infinite (Operation)">Operation: Infinite</a></b> released on November 18<sup>th</sup>! It features the addition of over 200 new customization items to <a href="/The_Exchange" class="mw-disambig" title="The Exchange">The Exchange</a>, a 100-tier Operation pass with several new <a href="/Armor_customization_(Halo_Infinite)" title="Armor customization (Halo Infinite)">armor customization</a> across various armor cores, permanent double XP boots to both <a href="/Rank_(Halo_Infinite)" title="Rank (Halo Infinite)">career rank</a> and <a href="/Spartan_Points" title="Spartan Points">Spartan Points</a>, and more. This is the final planned major content update for <i>Halo Infinite</i> as Halo Studios shifts focus to work on several new <i>Halo</i> titles.</li></ul>
+<ul><li><b><a href="/Digsite" title="Digsite">Digsite</a></b>, a team composed of <a href="/343_Industries" class="mw-redirect" title="343 Industries">343 Industries</a> employees and community <a href="https://en.wikipedia.org/wiki/Video_game_modding" class="extiw" title="wikipedia:Video game modding">modders</a>, are busy restoring <a href="/Cut_content" class="mw-redirect" title="Cut content">cut content</a> from previous <i><a href="/Halo_(disambiguation)" class="mw-disambig" title="Halo (disambiguation)">Halo</a></i> games, such as <i><a href="/Halo:_Combat_Evolved" title="Halo: Combat Evolved">Halo: Combat Evolved</a></i> and <i><a href="/Halo_2" title="Halo 2">Halo 2</a></i>! An previous update to <i><a href="/Halo:_The_Master_Chief_Collection" title="Halo: The Master Chief Collection">Halo: The Master Chief Collection</a></i> on PC even allows modders to incorporate this restored content into their creations. Read more <span class="plainlinks"><a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/news/digsite-deliveries"><b>HERE</b></a></span>!</li></ul>
+<hr />
+<center><span class="plainlinks"><small><b><a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/en-us/news">Halo Waypoint News</a>: <a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/en-us/news?categoryName=Canon%20Fodder">Canon Fodder</a> • <a target="_blank" rel="nofollow" class="external text" href="https://www.halowaypoint.com/en-us/news?categoryName=Halo%20Community%20Update">Community Update</a></b></small></span></center>
+<hr />
+<div class="center-template" style="text-align:center; margin-bottom:0.5em; font-size:14px; font-weight:bold;">Recent and upcoming media</div>
+<ul><li><b>May 26, 2026</b>: <i><a href="/Halo:_Waypoint_Chronicles" title="Halo: Waypoint Chronicles">Halo: Waypoint Chronicles</a></i> (Volume I) by <a href="/Jeff_Easterling" title="Jeff Easterling">Jeff Easterling</a> and <a href="/Alex_Wakeford" title="Alex Wakeford">Alex Wakeford</a></li>
+<li><b>July 28, 2026</b>: <i><a href="/Halo:_Campaign_Evolved" title="Halo: Campaign Evolved">Halo: Campaign Evolved</a></i></li>
+<li><b>2026</b>: <i><a href="/Halo:_Still_Midnight" title="Halo: Still Midnight">Halo: Still Midnight</a></i> by Jeff Easterling and Alex Wakeford</li>
+<li><b>November 2, 9, 15, 23, 30</b>: Untitled <a href="/Halo_Waypoint_Chronicle" title="Halo Waypoint Chronicle">Halo Waypoint Chronicles</a></li>
+<li><b>October 20, 2026</b>: <i><a href="/Halo:_Parasite%27s_Wake" title="Halo: Parasite&#39;s Wake">Halo: Parasite's Wake</a></i> by <a href="https://en.wikipedia.org/wiki/Tim_Lebbon" class="extiw" title="wikipedia:Tim Lebbon">Tim Lebbon</a></li>
+<li><b>November 10, 2026</b>: <i><a href="/Halo:_The_Master_Chief_Omnibus" title="Halo: The Master Chief Omnibus">Halo: The Master Chief Omnibus</a></i> and <i><a href="/Halo:_The_Fall_of_Reach_(audio_drama)" title="Halo: The Fall of Reach (audio drama)">The Fall of Reach audio drama</a></i></li>
+<li><b>December 8, 2026</b>: <i><a href="/Halo:_Shattered_Hourglass?action=edit&amp;redlink=1" class="new" title="Halo: Shattered Hourglass (page does not exist)">Halo: Shattered Hourglass</a></i></li>
+<li><b>February 11</b>: <i><a href="/Halo:_The_War_in_Heaven?action=edit&amp;redlink=1" class="new" title="Halo: The War in Heaven (page does not exist)">Halo: The War in Heaven</a></i></li>
+<li><b>March 2027</b>: <i><a href="/Halo:_Fireteam_Noble" title="Halo: Fireteam Noble">Halo: Fireteam Noble</a></i> by <a href="/Troy_Denning" title="Troy Denning">Troy Denning</a></li>
+<li><b>TBA 2027</b>:
+<ul><li><i><a href="/Halo:_The_Fall_of_Reach" title="Halo: The Fall of Reach">Halo: The Fall of Reach</a></i>, <i><a href="/Halo:_The_Flood" title="Halo: The Flood">The Flood</a></i> and <i><a href="/Halo:_First_Strike" title="Halo: First Strike">First Strike</a></i> Definitive Editions</li>
+<li><i><a href="/Halo:_Burn_the_Road_Home" title="Halo: Burn the Road Home">Halo: Burn the Road Home</a></i></li>
+<li><i><a href="/Halo:_Waypoint_Chronicles_-_Volume_Two" class="mw-redirect" title="Halo: Waypoint Chronicles - Volume Two">Halo: Waypoint Chronicles - Volume Two</a></i></li></ul></li></ul>
+<hr />
+<small>• Got something to announce? Post it <a href="/Talk:Main_Page/News/Community" title="Talk:Main Page/News/Community">here</a>!</small></div>
+</div>
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;"><a href="/Halopedia:Projects/Improvement" title="Halopedia:Projects/Improvement"><span style="color:#fff;">Article Improvement Drive</span></a></div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;text-align:left; color:#000; border-radius: 0 0 .5em .5em; padding: 0 0 4px 4px; background:#FAFAFA;">
+<div class="floatright"><a href="/Halopedia:Projects/Improvement" title="Halopedia:Projects/Improvement"><img alt="Halopedia Improvement I WANT YOU.png" src="https://halo.wiki.gallery/images/thumb/e/e2/Halopedia_Improvement_I_WANT_YOU.png/107px-Halopedia_Improvement_I_WANT_YOU.png" decoding="async" loading="lazy" width="107" height="159" srcset="https://halo.wiki.gallery/images/thumb/e/e2/Halopedia_Improvement_I_WANT_YOU.png/161px-Halopedia_Improvement_I_WANT_YOU.png 1.5x, https://halo.wiki.gallery/images/thumb/e/e2/Halopedia_Improvement_I_WANT_YOU.png/214px-Halopedia_Improvement_I_WANT_YOU.png 2x" data-file-width="432" data-file-height="640" /></a></div>
+<p><b><a href="/Halopedia:Projects/Improvement" title="Halopedia:Projects/Improvement">Article Improvement Drive</a></b> is a community project to improve the wiki's content through bringing articles in dire need of improvement—from cleanup to content expansion and updates—to everyone's attention. Anyone is welcome to participate in the project!
+</p><p>A small sampling of articles in need of new content:
+</p>
+<ul><li><b><a href="/Veta_Lopis" title="Veta Lopis">Veta Lopis</a></b> (<i><a href="/Halo:_Retribution" title="Halo: Retribution">Halo: Retribution</a></i>)</li>
+<li><b><a href="/Melody_Azikiwe" title="Melody Azikiwe">Melody Azikiwe</a></b> (<i><a href="/Halo:_Envoy" title="Halo: Envoy">Halo: Envoy</a></i>)</li>
+<li><b><a href="/Gray_Team" title="Gray Team">Gray Team</a></b> (<i>Halo: Envoy</i>)</li>
+<li><b><a href="/Rion_Forge" title="Rion Forge">Rion Forge</a></b> (<i><a href="/Halo:_Smoke_and_Shadow" title="Halo: Smoke and Shadow">Halo: Smoke and Shadow</a></i>, <i><a href="/Halo:_Renegades" title="Halo: Renegades">Halo: Renegades</a></i>)</li>
+<li><b><a href="/Operation:_JOVIAN_WHISTLE" title="Operation: JOVIAN WHISTLE">Operation: JOVIAN WHISTLE</a></b> (<i><a href="/Halo:_Last_Light" title="Halo: Last Light">Halo: Last Light</a></i>)</li>
+<li><b><a href="/Drifts_Randomly" title="Drifts Randomly">Drifts Randomly</a></b> (<i><a href="/Halo:_Hunters_in_the_Dark" title="Halo: Hunters in the Dark">Halo: Hunters in the Dark</a></i>)</li></ul>
+<p>The following articles for <i>Halo</i> media could use the addition (or completion) of a <b>plot synopsis</b>:
+</p>
+<ul><li><i><b><a href="/Halo:_Renegades" title="Halo: Renegades">Halo: Renegades</a></b></i></li>
+<li><i><b><a href="/Halo:_Battle_Born" title="Halo: Battle Born">Halo: Battle Born</a></b></i></li>
+<li><i><b><a href="/Halo:_Silent_Storm" title="Halo: Silent Storm">Halo: Silent Storm</a></b></i></li>
+<li><i><b><a href="/Halo:_Bad_Blood" title="Halo: Bad Blood">Halo: Bad Blood</a></b></i></li>
+<li><i><b><a href="/Halo:_Legacy_of_Onyx" title="Halo: Legacy of Onyx">Halo: Legacy of Onyx</a></b></i></li>
+<li><i><b><a href="/Halo:_Retribution" title="Halo: Retribution">Halo: Retribution</a></b></i></li>
+<li><i><b><a href="/Halo:_Envoy" title="Halo: Envoy">Halo: Envoy</a></b></i></li>
+<li><i><b><a href="/Halo:_Smoke_and_Shadow" title="Halo: Smoke and Shadow">Halo: Smoke and Shadow</a></b></i> (Part Four)</li>
+<li><i><b><a href="/Promises_to_Keep" title="Promises to Keep">Promises to Keep</a></b></i></li></ul>
+<hr />
+See the <a href="/Halopedia:Projects/Improvement" title="Halopedia:Projects/Improvement">AID project page</a> for more information!</div>
+</div>
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;">Did you know?</div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;">
+<ul><li>...that <b><a href="/Maria-062" title="Maria-062">Maria-062</a></b>, <b><a href="/Randall_Aiken" title="Randall Aiken">Randall-037</a></b>, and <b><a href="/Ralph-103" title="Ralph-103">Ralph-103</a></b> are the only known <a href="/SPARTAN-II_program" title="SPARTAN-II program">SPARTAN-IIs</a> to retire?</li>
+<li>...that the <b><a href="/Shield_world" title="Shield world">shield worlds</a></b> were originally designed as a less destructive alternative to the <a href="/Halo_Array" title="Halo Array">Halo Array</a>?</li>
+<li>...that the <b><a href="/Emergency_lighting" title="Emergency lighting">emergency lighting</a></b> aboard <a href="/Covenant" title="Covenant">Covenant</a> warships is ultraviolet?</li>
+<li>...that a <a href="/CPV-class_heavy_destroyer" class="mw-redirect" title="CPV-class heavy destroyer">Covenant CPV-class heavy destroyer</a> is 1500 meters long?</li>
+<li>...that a <b><a href="/Reversed_Messages" class="mw-redirect" title="Reversed Messages">mysterious message</a></b> was found reversed in the <i><a href="/Halo_2" title="Halo 2">Halo 2</a></i> soundtrack?</li></ul>
+<hr />
+<small>• <a href="/Halopedia:Featured/DYK" title="Halopedia:Featured/DYK">Add your own <i>Did you know?</i></a></small></div>
+</div>
+</td>
+<td style="width:260px" valign="top">
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;"><a href="/Halopedia:Featured/Article" title="Halopedia:Featured/Article"><span style="color:#fff">Featured article</span></a>:<br /><a href="/Habitat_dome" title="Habitat dome"><span style="color:#fff">Habitat dome</span></a></div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;text-align:justify; color:#000; border-radius:0 0 .5em .5em; padding:0; background:#FAFAFA;">
+<div class="center"><div class="floatnone"><a href="/Habitat_dome" title="Habitat dome"><img alt="Habitat dome" src="https://halo.wiki.gallery/images/thumb/b/b6/HCEV_HabitatDome.png/270px-HCEV_HabitatDome.png" decoding="async" loading="lazy" width="270" height="152" srcset="https://halo.wiki.gallery/images/thumb/b/b6/HCEV_HabitatDome.png/405px-HCEV_HabitatDome.png 1.5x, https://halo.wiki.gallery/images/thumb/b/b6/HCEV_HabitatDome.png/540px-HCEV_HabitatDome.png 2x" data-file-width="1920" data-file-height="1080" /></a></div></div><div style="padding: 4px 8px 0">
+<p>Found aboard some Covenant starships, habitat domes are structures utilized for recreational activities like training, hunting, and worship, as well as the raising of livestock and the production of a fleet's rations. Typically appearing as domes embedded into a vessel's exterior, the interiors of habitat domes are populated with flora, fauna, and terrain intended to emulate various biomes, complete with a simulated sky. While most often tailored to the preferences of the ship's San'Shyuum and Sangheili crew, the domes may also serve the specific needs of other species, including colonies of Lekgolo. Despite the relatively benign purpose of these domes, they have become the site of conflict on multiple occasions. During Operation: METEORITE in 2551, John-117 and Avery Johnson boarded the agricultural ship <i>Triumph of Tolerance</i> in search of information about High Charity, engaging its crew within a habitat dome in the ensuing battle. Perhaps most infamously, a Flood outbreak occurred aboard the <i>Mjern</i>-pattern agricultural ship <i>Infinite Succor</i> during the Battle of Installation 04 in 2552, resulting in the parasite's assimilation of the fauna held within its habitat domes, and the ultimate destruction of the vessel at the hands of Rtas 'Vadumee.
+</p>
+</div><div style="text-align:right"><i><a href="/Habitat_dome" title="Habitat dome">Read more...</a></i></div>
+<hr />
+<center><b>Nominate a featured article <a href="/Halopedia_talk:Featured/Article/Nomination" title="Halopedia talk:Featured/Article/Nomination">here</a>!</b></center></div>
+</div>
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;">Featured quote</div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;">
+<div style="padding-top:6px">
+<table class="quotebox" style="margin:auto;">
+<tbody><tr>
+<td valign="top" style="width:20px; font-size:36px; font-family:&#39;Times New Roman&#39;, serif; font-weight:bold; text-align:left; padding:3px;">“
+</td>
+<td valign="top" style="padding:3px;">
+<p><i>There are things about <a href="/Halo" class="mw-redirect" title="Halo">Halo</a> that even the Hierarchs do not understand...</i><br />
+<span style="float:right;">&#8212;<a href="/Thel_%27Vadam" title="Thel &#39;Vadam">Arbiter</a>, <i><a href="/The_Great_Journey" class="mw-redirect" title="The Great Journey">The Great Journey</a></i>, <i><a href="/Halo_2" title="Halo 2">Halo 2</a></i></span>
+</p>
+</td>
+<td valign="bottom" style="width:20px; font-size:36px; font-family:&#39;Times New Roman&#39;, serif; font-weight:bold; text-align:right; padding:3px;">”
+</td></tr></tbody></table>
+</div>
+<hr />
+<div style="text-align:center; font-size:smaller;"><a href="/Halopedia_talk:Featured/Quote" title="Halopedia talk:Featured/Quote">Nominate and vote for your favorite quote!</a></div></div>
+</div>
+<div class="containerTem" style="background:#666;border-radius:0.5em;padding:0 2px 2px;margin:0 auto 16px;"><div class="containerTitle" style="color:#fff;text-align:center;font-size:115%;font-weight:bold;"><div class="floatleft"><img alt="Discord-icon.png" src="https://halo.wiki.gallery/images/thumb/e/e9/Discord-icon.png/20px-Discord-icon.png" decoding="async" loading="lazy" width="20" height="20" srcset="https://halo.wiki.gallery/images/thumb/e/e9/Discord-icon.png/30px-Discord-icon.png 1.5x, https://halo.wiki.gallery/images/thumb/e/e9/Discord-icon.png/40px-Discord-icon.png 2x" data-file-width="1600" data-file-height="1600" /></div> <a href="/Halopedia:Discord_server" title="Halopedia:Discord server"><span style="color:#fff">Community chat</span></a></div><div class="containerContent" style="clear:both;overflow:auto;background:#FAFAFA;border-radius:0 0 0.5em 0.5em;padding:2px 4px 1px;overflow:visible; text-align:center; color:#000; font-size:110%; border-radius:0 0 .5em .5em; padding:0 4px; background:#23272a;">
+<iframe src="https://discordapp.com/widget?id=258355019781242883&amp;theme=dark" width="250" height="400" allowtransparency="true" frameborder="0"></iframe></div>
+</div>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Affiliates">Affiliates</span></h2>
+<table class="plainlinks" style="width:97%;text-align:center;font-weight:bold;--darkbg:#333;border-radius:6px;margin:0 auto">
+<tbody><tr>
+<td style="width:33%"><div class="center"><div class="floatnone"><a href="https://www.marathonwiki.com/" title="cyberacme:"><img alt="" src="https://halo.wiki.gallery/images/2/2c/HP_Logo_CyberAcme.svg" decoding="async" loading="lazy" width="125" height="125" class="invert" data-file-width="512" data-file-height="512" /></a></div></div>
+</td>
+<td style="width:33%"><a href="https://www.destinypedia.com/" title="destinypedia:"><img alt="" src="https://halo.wiki.gallery/images/thumb/2/29/Destinypedia-banner.png/125px-Destinypedia-banner.png" decoding="async" loading="lazy" width="125" height="125" srcset="https://halo.wiki.gallery/images/2/29/Destinypedia-banner.png 1.5x" data-file-width="150" data-file-height="150" /></a>
+</td>
+<td style="width:33%"><div class="center"><div class="floatnone"><a href="https://www.niwanetwork.org/" title="niwa:"><img alt="" src="https://halo.wiki.gallery/images/thumb/e/e3/NIWA_logo.png/125px-NIWA_logo.png" decoding="async" loading="lazy" width="125" height="91" srcset="https://halo.wiki.gallery/images/thumb/e/e3/NIWA_logo.png/188px-NIWA_logo.png 1.5x, https://halo.wiki.gallery/images/thumb/e/e3/NIWA_logo.png/250px-NIWA_logo.png 2x" data-file-width="300" data-file-height="218" /></a></div></div>
+</td></tr>
+<tr>
+<td><a href="https://www.marathonwiki.com/" class="extiw" title="cyberacme:">CyberAcme</a><br />The <i>Marathon</i> wiki and encyclopedia
+</td>
+<td><a href="https://www.destinypedia.com/" class="extiw" title="destinypedia:">Destinypedia</a><br />The definitive source for <i>Destiny</i> information
+</td>
+<td><a href="https://www.niwanetwork.org/" class="extiw" title="niwa:">NIWA</a><br />A network of independent Nintendo wikis
+</td></tr></tbody></table>    
+<!-- 
+NewPP limit report
+Cached time: 20261005211416
+Cache expiry: 3600
+Reduced expiry: true
+Complications: [no‐toc]
+CPU time usage: 0.087 seconds
+Real time usage: 0.099 seconds
+Preprocessor visited node count: 405/2000000
+Post‐expand include size: 39495/4194304 bytes
+Template argument size: 15117/4194304 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/1000
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1574/5000000 bytes
+ExtLoops count: 0/10000
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   31.259      1 -total
+ 57.58%   18.000      7 Template:Container
+ 19.91%    6.225      1 Main_Page/DYK
+ 17.93%    5.606      1 Main_Page/News
+ 16.15%    5.048      1 Template:DYK
+ 13.79%    4.310      1 Main_Page/Intro
+ 11.77%    3.679      1 Main_Page/Nav
+ 11.54%    3.607      1 Template:FeaturedQuote
+ 11.01%    3.442      1 Halopedia:Main_Page/Featured
+  8.62%    2.693      1 Main_Page/Quote
+-->
+
+<!-- Saved in parser cache with key halo?hwiki:pcache:idhash:5-0!canonical and timestamp 20261005211416 and revision id 1767489. Rendering was triggered because: page-view
+ -->
+</div><div id="adBox" class="adWrapper noprint" style="margin-top:10px"><!-- Tag ID: halopedia_incontent_3 -->
+<div align="center" data-freestar-ad="__336x280 __970x250" id="halopedia_incontent_3">
+  <script data-cfasync="false" type="text/javascript">
+    freestar.config.enabled_slots.push({ placementName: "halopedia_incontent_3", slotId: "halopedia_incontent_3" });
+  </script>
+</div></div><div id="cmp-privacy-link" class="noprint" style="height:1.5em"></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://www.halopedia.org/index.php?title=Main_Page&amp;oldid=1767489">https://www.halopedia.org/index.php?title=Main_Page&amp;oldid=1767489</a>"</div>
+										<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Main_page" title="Category:Main page">Main page</a></li></ul></div></div>					<!-- end content -->
+									</div>
+			</main>
+		</div>
+	</div>
+	<footer id="footer-bottom" class="noprint"><a href="/" title="Main Page">Main page</a>
+<a href="/Halopedia:About">About Halopedia</a>
+<a href="/Special:SpecialPages">Special pages</a>
+<a href="/Help:Contents" title="Help:Contents">Help</a>
+<a href="https://www.porplemontage.com/privacy">Privacy policy</a>
+<a href="/Halopedia:General_disclaimer">Disclaimers</a>
+<a href="https://www.halopedia.org/index.php?title=Main_Page&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a>
+
+	</footer>
+</div><!-- #container -->
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"skins.nimbus\".\n[1.43] The use of the `i18n-all-lists-margins` feature with SkinModule is deprecated as it is now provided by `elements`. Please remove and  add `elements`, drop support for RTL languages, or incorporate the  styles provided by this module into your skin.[1.43] The use of the `interface-message-box` feature with SkinModule is deprecated in favor of CodexModule. Please remove this feature.More information can be found at [[mw:Manual:ResourceLoaderSkinModule]]. ");mw.config.set({"wgBackendResponseTime":213,"wgPageParseReport":{"limitreport":{"cputime":"0.087","walltime":"0.099","ppvisitednodes":{"value":405,"limit":2000000},"postexpandincludesize":{"value":39495,"limit":4194304},"templateargumentsize":{"value":15117,"limit":4194304},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":1000},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1574,"limit":5000000},"timingprofile":["100.00%   31.259      1 -total"," 57.58%   18.000      7 Template:Container"," 19.91%    6.225      1 Main_Page/DYK"," 17.93%    5.606      1 Main_Page/News"," 16.15%    5.048      1 Template:DYK"," 13.79%    4.310      1 Main_Page/Intro"," 11.77%    3.679      1 Main_Page/Nav"," 11.54%    3.607      1 Template:FeaturedQuote"," 11.01%    3.442      1 Halopedia:Main_Page/Featured","  8.62%    2.693      1 Main_Page/Quote"]},"loops":{"limitreport-count-limited":{"value":0,"limit":10000}},"cachereport":{"timestamp":"20261005211416","ttl":3600,"transientcontent":true}}});});</script>
+</body>
+<!-- Cached 20261005211438 -->
+</html>

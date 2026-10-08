@@ -1,0 +1,89 @@
+;==========================================================;
+; SAPP CE Configuration File
+; This file is loaded by SAPP after the server starts.
+; For basic server startup commands, edit /cg/init.txt instead.
+; For updates and Lua scripts, visit:
+; https://github.com/Chalwk77/SPCLib
+;==========================================================;
+
+
+;==========================================================;
+; LUA SCRIPTS CONFIGURATION
+;==========================================================;
+
+; Enable SAPP's Lua scripting API (true/false):
+lua true
+
+; Load individual Lua scripts by filename.
+; Use double quotes if the filename contains spaces.
+lua_load "sample_script"
+
+
+;==========================================================;
+; MAP CYCLE AND VOTING SETTINGS
+;==========================================================;
+
+; Enable or disable the automatic map-cycle system (true/false):
+; NOTE: mapcycle cannot be enabled if mapvote is enabled.
+sapp_mapcycle true
+
+; Timeout in seconds before switching maps (requires sapp_mapcycle enabled):
+sv_mapcycle_timeout 10
+
+; Enable or disable the map voting system (true/false):
+; NOTE: mapvote and sapp_mapcycle are mutually exclusive.
+mapvote false
+
+; Maximum number of map options shown to players during voting:
+max_votes 6
+
+; Percentage of players required to skip the current map:
+map_skip 60
+
+; Force the server to start on a specific map and mode:
+; It's only recommended to use this if you're using mapvote system.
+;map bloodgulch ctf
+
+
+;==========================================================;
+; GENERIC SERVER SETTINGS
+;==========================================================;
+
+; Enable no-lead mode to compensate for latency in aiming:
+; Note that latency still affects accuracy.
+no_lead true
+
+; Prevent admins from banning other admins with a higher level:
+adminban 1
+
+; Prefix for server-generated messages (e.g., announcements):
+msg_prefix "Admin: "
+
+; Prefix for admin messages sent via RCON, console, or chat commands:
+admin_prefix "Admin: "
+
+; Disable regular sv_status messages.
+; Only player join/quit messages will be shown if true:
+sapp_console true
+
+; Hide the identity of admins issuing kick/ban commands:
+hide_admin true
+
+; Thread sleep time per server cycle in milliseconds (recommended 8-12):
+custom_sleep 12
+
+; Maximum packets per second allowed from a single IP address:
+packet_limit 1000
+
+; Time in seconds before restarting the map cycle if the server is idle:
+max_idle 1
+
+
+;==========================================================;
+; SAPP RCON SETTINGS
+;==========================================================;
+
+; Require RCON users to have admin privileges (true/false):
+; V1 admins use the sv_rcon_password.
+; V2 admins use individual passwords (passwords longer than 8 characters cannot use RCON).
+sapp_rcon false

@@ -1,0 +1,19 @@
+{
+  "current_match": "Semifinal 1",
+  "team_red": {
+    "name": "Equipo Alpha"
+  },
+  "team_blue": {
+    "name": "Equipo Bravo"
+  },
+  "bracket": {
+    "semi1_t1": "skibidis",
+    "semi1_t2": "toiles",
+    "semi2_t1": "Equipo Charlie",
+    "semi2_t2": "Equipo Delta",
+    "final_t1": "",
+    "final_t2": "",
+    "champion": "POR DEFINIR"
+  },
+  "stats": []
+}

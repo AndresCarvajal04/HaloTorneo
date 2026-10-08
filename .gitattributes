@@ -1,0 +1,2 @@
+server/SAPP_CE.zip filter=lfs diff=lfs merge=lfs -text
+server/maps/bitmaps.map filter=lfs diff=lfs merge=lfs -text
